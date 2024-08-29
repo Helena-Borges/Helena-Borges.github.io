@@ -59,31 +59,35 @@
             width: 100%; /* Largura da tira */
             margin: 20px 0; /* Margens acima e abaixo da tira */
         }
+        .container {
+            display: flex; /* Ativa o Flexbox */
+            gap: 10px; /* Espaçamento entre os botões */
+            justify-content: center; /* Centraliza os botões horizontalmente */
+            padding: 20px; /* Adiciona um pouco de espaço ao redor dos botões */
+        }
+        button {
+            padding: 10px 20px; /* Espaçamento interno dos botões */
+            font-size: 16px; /* Tamanho da fonte dos botões */
+            cursor: pointer; /* Mostra um cursor de mão ao passar sobre o botão */
+        }
 
             </style>
             <div id = "center">
-                <div id = "left">
                 <bold><h2 style="font-family:Verdana, Geneva, Tahoma, sans-serif;">Empresa de <font color="rgb(246,94,0);"> Mudanças</font></h2></bold>
                 <h3>Você escolhe o local e nós fazemos o resto</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sollicitudin eros id felis laoreet sagittis. Aenean faucibus dui id lorem tincidunt dignissim. Nullam quis justo id nulla bibendum posuere sit amet quis quam. Donec in tempor leo. Nulla eleifend quis libero sagittis sagittis. Duis blandit venenatis metus, id ornare risus consequat a. Vivamus commodo interdum tellus, eu tristique ante sollicitudin vel. Sed non tellus velit. </p>
-                </div>
-                <div id = "right">
                 <img src="https://static.wixstatic.com/media/9b941c0eabea11a94ba8c631a6217e88.jpg/v1/fill/w_438,h_453,al_c,lg_1,q_80,enc_auto/9b941c0eabea11a94ba8c631a6217e88.jpg" style="float:right;>
                 <figcaption>Ligue já:<span class="phone">0800-000-0000</span></figcaption>
-                </div>
-        </div>
-        </section>
-        <section class="divisoria">
-            <nav>
-                <ul>
-                    <li><a href="#">Página inicial</a></li>
-                    <li><a href="#">Serviços</a></li>
-                    <li><a href="#">Sobre</a></li>
-                    <li><a href="#">Caminhões e equipe</a></li>
-                    <li><a href="#">Dicas de mudança</a></li>
-                </ul>
-            </nav>
-        </section>
+            </div>
+    <div id = "tira-meio">
+     <div class="container">
+        <button>Botão 1</button>
+        <button>Botão 2</button>
+        <button>Botão 3</button>
+        <button>Botão 4</button>
+        <button>Botão 5</button>
+    </div>
+    </div>
     </header>
     <main>
         <section>
