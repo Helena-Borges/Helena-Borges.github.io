@@ -88,7 +88,7 @@
             color: rgb(13,31,41); /* Cor da palavra destacada */
             font-weight: bold; /* Negrito opcional */
         }
-        destaque4 {
+        .cor {
             font-color: white; /* Cor da palavra destacada */
             font-family: 'Impact';
             font-weight: bold; /* Negrito opcional */
@@ -154,29 +154,25 @@
         .box:nth-child(3) {
             background-color: white;
         }
-        .container5 {
-            position: relative;
-            margin: 20px;
-        }
-
         .box2 {
-            width: 100%;
             position: relative;
-            background-color: rgb(13,31,41);
-            border: 1px solid #ddd;
-            max-width: 300px;
+            background-color: rgb(13,31,41);;
+            padding: 15px;
+            border-radius: 5px;
+            width: 100%;
             text-align: center;
         }
 
-        .box2::after {
+        .box::after {
             content: "";
             position: absolute;
-            top: 100%; /* Alinha a ponta com a parte inferior da caixa */
+            bottom: -10px; /* Posição da ponta abaixo da caixa */
             left: 50%; /* Centraliza a ponta horizontalmente */
-            margin-left: -10px; /* Ajusta o posicionamento horizontal da ponta */
+            transform: translateX(-50%); /* Ajusta a ponta para o centro */
             border-width: 10px;
             border-style: solid;
-            border-color: rgb(13,31,41); /* Define a cor da ponta e a direção do triângulo */
+            border-color: rgb(13,31,41);  /* Cor da ponta */
+        }
         }
         </style>
         <div id = "center">
@@ -211,15 +207,14 @@
     <div id = "center2">
     <div class="container4">
         <div class="box"><img src="https://static.wixstatic.com/media/84770f_43ef5fccf7b6220e789a1d38c19d516c.jpg/v1/fill/w_305,h_178,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_43ef5fccf7b6220e789a1d38c19d516c.jpg" width: 100%;>
-            <div class="container5">
         <div class="box2">
-            <span class="destaque4">RESIDENTIAL MOVERS</span>
+            <span class="cor">RESIDENTIAL MOVERS</span>
         </div>
     </div>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sollicitudin eros id felis laoreet sagittis. Aenean faucibus dui id lorem tincidunt dignissim. Nullam quis justo id nulla bibendum posuere sit amet quis quam. Donec in tempor leo. </p>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sollicitudin eros id felis laoreet sagittis. Aenean faucibus dui id lorem tincidunt dignissim. Nullam quis justo id nulla bibendum posuere sit amet quis quam. Donec in tempor leo. </p>
     </div>
-        <div class="box">
+        <div class="box"><img src="https://static.wixstatic.com/media/84770f_9a6196a6772a4fdd520bfab07920da09.jpg/v1/fill/w_355,h_166,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_9a6196a6772a4fdd520bfab07920da09.jpg" width: 100%;>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sollicitudin eros id felis laoreet sagittis. Aenean faucibus dui id lorem tincidunt dignissim. Nullam quis justo id nulla bibendum posuere sit amet quis quam. Donec in tempor leo. </p>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sollicitudin eros id felis laoreet sagittis. Aenean faucibus dui id lorem tincidunt dignissim. Nullam quis justo id nulla bibendum posuere sit amet quis quam. Donec in tempor leo. </p>
         </div>
