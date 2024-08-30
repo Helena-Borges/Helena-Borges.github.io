@@ -72,19 +72,44 @@
         button:hover {
             background-color: rgb(246,94,0); /* Cor de fundo ao passar o mouse */
         }
-            </style>
-            <div id = "center">
-                <bold><h2 style="font-family:Verdana, Geneva, Tahoma, sans-serif;">Empresa de <span class="destaque"> Mudanças</span></h2></bold>
+        ..container {
+            column-count: 2; /* Define o número de colunas */
+            column-gap: 20px; /* Espaço entre as colunas */
+            padding: 20px; /* Espaço ao redor do contêiner */
+            border: 1px solid #ddd; /* Adiciona uma borda para visualização */
+        }
+        .texto {
+            display: inline; /* Faz o texto ser exibido em linha */
+            width: 100%; /* Ocupa toda a largura da coluna */
+            font-size: 16px; /* Tamanho da fonte do texto */
+        }
+        .imagem {
+            display: inline; /* Faz a imagem ser exibida em linha */
+            width: 100%; /* Ocupa toda a largura da coluna */
+            text-align: right; /* Alinha a imagem à direita dentro da coluna */
+        }
+        img {
+            max-width: 100%; /* Ajusta a imagem ao tamanho do contêiner */
+            height: auto; /* Mantém a proporção da imagem */
+        }
+        </style>
+        <div id = "center">
+        <div class="container">
+        <div class="texto">
+            <bold><h2 style="font-family:Verdana, Geneva, Tahoma, sans-serif;">Empresa de <span class="destaque"> Mudanças</span></h2></bold>
                 <h3>Você escolhe o local e nós fazemos o resto</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sollicitudin<br>
-                   eros id felis laoreet sagittis. Aenean faucibus dui id lorem tincidunt<br>
-                   dignissim. Nullam quis justo id nulla bibendum posuere sit amet quis quam.<br>
-                    Donec in tempor leo. Nulla eleifend quis libero sagittis sagittis. Duis<br>
-                    blandit venenatis metus, id ornare risus consequat a. Vivamus commodo<br>
-                    interdum tellus, eu tristique ante sollicitudin vel. Sed non tellus velit. </p>
-                <img src="https://static.wixstatic.com/media/9b941c0eabea11a94ba8c631a6217e88.jpg/v1/fill/w_438,h_453,al_c,lg_1,q_80,enc_auto/9b941c0eabea11a94ba8c631a6217e88.jpg" width="30%" align="right">
-                <figcaption>Ligue já:<span class="phone">0800-000-0000</span></figcaption>
-            </div>
+                eros id felis laoreet sagittis. Aenean faucibus dui id lorem tincidunt<br>
+                dignissim. Nullam quis justo id nulla bibendum posuere sit amet quis quam.<br>
+                Donec in tempor leo. Nulla eleifend quis libero sagittis sagittis. Duis<br>
+                blandit venenatis metus, id ornare risus consequat a. Vivamus commodo<br>
+                interdum tellus, eu tristique ante sollicitudin vel. Sed non tellus velit. </p>
+        </div>
+        <div class="imagem">
+            img src="https://static.wixstatic.com/media/9b941c0eabea11a94ba8c631a6217e88.jpg/v1/fill/w_438,h_453,al_c,lg_1,q_80,enc_auto/9b941c0eabea11a94ba8c631a6217e88.jpg" width="30%" align="right">
+        </div>
+    </div>
+    </div>
     <div id = "tira-meio">
      <div class="container">
         <button>Página Inicial</button>
