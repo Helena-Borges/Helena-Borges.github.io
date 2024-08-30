@@ -29,7 +29,7 @@
                 box-sizing: border-box;
             }
             #header{
-            background-color: #DCDCDC
+            background-color: #DCDCDC;
             }
             #meu-botao1 {
             background-color: #FFA500;
@@ -116,6 +116,32 @@
         .arial-text {
             font-family: 'Lato';font-size: 35px; 
         }
+        .container4 {
+            display: flex;
+            justify-content: space-between; /* Espaça os itens igualmente */
+            margin: 20px;
+        }
+
+        .box {
+            flex: 1; /* Faz com que cada div ocupe uma parte igual do espaço disponível */
+            margin: 0 10px; /* Espaçamento entre os itens */
+            padding: 20px;
+            background-color: white;
+            border: 3px solid #DCDCDC;
+            text-align: left;
+        }
+
+        .box:nth-child(1) {
+            background-color: white;
+        }
+
+        .box:nth-child(2) {
+            background-color: white;
+        }
+
+        .box:nth-child(3) {
+            background-color: white;
+        }
         </style>
         <div id = "center">
         <div class="container">
@@ -130,7 +156,7 @@
                 interdum tellus, eu tristique ante sollicitudin vel. Sed non tellus velit. </p>
         </div>
         <div class="imagem">
-            <div class="caixa-pequena"><span class="destaque">Ligue já:</span><bold>0-800-000-0000</bold></div>
+            <div class="caixa-pequena"><span class="destaque">Ligue já:</span><bold>  0-800-000-0000</bold></div>
             <img src="https://static.wixstatic.com/media/9b941c0eabea11a94ba8c631a6217e88.jpg/v1/fill/w_438,h_453,al_c,lg_1,q_80,enc_auto/9b941c0eabea11a94ba8c631a6217e88.jpg" align="right">
         </div>
     </div>
@@ -146,7 +172,11 @@
     </div>
     </header>
     <main>
-        <section>
+    <div class="container">
+        <div class="box"><img src="https://static.wixstatic.com/media/84770f_43ef5fccf7b6220e789a1d38c19d516c.jpg/v1/fill/w_305,h_178,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_43ef5fccf7b6220e789a1d38c19d516c.jpg"></div>
+        <div class="box">Div 2</div>
+        <div class="box">Div 3</div>
+    </div>
             <article class="box">
                 <figure>
                     <img src="./img/truck1_site4.png" alt="Caminhão de mudanças">
