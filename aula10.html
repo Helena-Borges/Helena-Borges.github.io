@@ -55,9 +55,6 @@
                 height: 100%;
                 box-sizing: border-box;
             }
-            #footer{
-                background-color: rgb(13,31,41);
-            }
             .faleconosco{
                 width: 50%;
             }
@@ -240,6 +237,36 @@
             float: right;
             transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
         }
+        .caixa1, .caixa2 {
+            float: left; /* Faz com que os divs fiquem lado a lado */
+            width: 48%; /* Largura dos divs */
+            margin-right: 2%; /* Espaçamento entre os divs */
+            padding: 20px;
+            background-color: #f8f9fa;
+            border: 1px solid #ccc;
+        }
+
+        .caixa2 {
+            margin-right: 0; /* Remove o espaçamento direito do último div */
+        }
+
+        .clearfix::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .caixa1 {
+            background-color: rgb(13,31,41)/* Cor de fundo para a primeira caixa */
+        }
+
+        .caixa2 {
+            background-color: rgb(13,31,41) /* Cor de fundo para a segunda caixa */
+        }
+        footer{
+            background-color: rgb(13,31,41);
+            color: white; 
+        }
         </style>
         <div id = "center">
         <div class="container">
@@ -300,8 +327,15 @@
     </div>
     </main>
     <footer>
-        <span class="destaque4">fale conosco</span>
-        <span class="arial-text2">Entre em contato conosco para um orçamento gratuito</span>
+    <div class="clearfix">
+        <div class="caixa1">
+            <span class="destaque4">fale conosco</span>
+            <span class="arial-text2">Entre em contato conosco para um orçamento gratuito</span>
+    </div>
+    <div class="caixa2">Caixa 2
+    
+    </div>
+    </div>
     </footer>
 </body>
 </html>
