@@ -295,6 +295,16 @@
             color: DCDCDC;
             text-align: right, top;
         }
+        table {
+            width: 100%;
+            border-collapse: collapse; /* Remove o espaço entre as células */
+        }
+
+        th, td {
+            border: none; /* Remove a borda das células */
+            padding: 10px; /* Adiciona algum espaço interno, se desejado */
+            text-align: left; /* Alinha o texto à esquerda */
+        }
         </style>
         <div id = "center">
         <div class="container">
@@ -367,8 +377,26 @@
             <button2>Enviar</button2>
             </div>
     <div class="caixa2">
-            <span class="destaque4">Areas cobertas</span><br>
-            <span class="arial-text2">Como somos uma empresa baseada em São Paulo, SP, nós cobrimos toda a Região Sudeste e entregamos para todo o Brasil/span>
+            <span class="destaque4">Áreas cobertas</span><br>
+            <span class="arial-text2">Como somos uma empresa baseada em São Paulo, SP, nós cobrimos toda a Região Sudeste e entregamos para todo o Brasil</span>
+            <table>
+                <th>
+                    <td>São Paulo</td>
+                    <td>Salvador</td>
+                </th>
+                <th>
+                    <td>Rio de Janeiro</td>
+                    <td>Porto Alegre</td>
+                </th>
+                <th>
+                    <td>Brasília</td>
+                    <td>Curitiba</td>
+                </th>
+                <th>
+                    <td>Belo Horizonte</td>
+                    <td>Manaus</td>
+                </th>
+            </table>
     </div>
     </div>
     </div>
