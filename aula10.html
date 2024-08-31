@@ -171,25 +171,17 @@
             margin: 20px;
         }
 
-        .box2 {
-            position: relative;
-            background-color: rgb(13,31,41); /* Cor de fundo da caixa */
-            color: white; /* Cor do texto dentro da caixa */
-            padding: 15px;
-            width: 100%;
-            text-align: center;
-            margin-top: 0;
-        }
-
-        .box2::after {
-            content: "";
-            position: absolute;
-            bottom: -20px; /* Posição da ponta abaixo da caixa */
-            left: 50%; /* Centraliza a ponta horizontalmente */
-            transform: translateX(-50%); /* Ajusta a ponta para o centro */
-            border-width: 10px;
-            border-color: rgb(13,31,41); /* Cor da ponta (deve combinar com a cor de fundo da caixa) */
-        }
+        .normal{
+            height:100px;
+            background-color:#f00;
+        }        
+        .triangulo {
+            width: 0; 
+            height: 0; 
+            border-left: 50px solid transparent; 
+            border-right: 50px solid transparent;
+            border-top: 20px solid #f00;
+}
         button2 {
             padding-left: 10px; padding-right: 10px;
             cursor: pointer; /* Mostra um cursor de mão ao passar sobre o botão */
@@ -238,21 +230,25 @@
     <div id = "center2">
     <div class="container4">
     <div class="box"><img src="https://static.wixstatic.com/media/84770f_43ef5fccf7b6220e789a1d38c19d516c.jpg/v1/fill/w_305,h_178,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_43ef5fccf7b6220e789a1d38c19d516c.jpg" width: 100%;>
-    <div class="container">
-        <div class="box2">
+        <div id = "tira-meio">
             RESIDENTIAL MOVERS
         </div>
-    </div>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sollicitudin eros id felis laoreet sagittis. Aenean faucibus dui id lorem tincidunt dignissim. Nullam quis justo id nulla bibendum posuere sit amet quis quam. Donec in tempor leo. </p> 
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sollicitudin eros id felis laoreet sagittis. Aenean faucibus dui id lorem tincidunt dignissim. Nullam quis justo id nulla bibendum posuere sit amet quis quam. Donec in tempor leo. </p>
         <button2>Leia Mais</button2>
     </div>
     <div class="box"><img src="https://static.wixstatic.com/media/84770f_a071d57f1404709c3caf06f934e76646.jpg/v1/fill/w_305,h_178,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_a071d57f1404709c3caf06f934e76646.jpg">
+        <div id = "tira-meio">
+            COMERCIAL MOVES
+        </div>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sollicitudin eros id felis laoreet sagittis. Aenean faucibus dui id lorem tincidunt dignissim. Nullam quis justo id nulla bibendum posuere sit amet quis quam. Donec in tempor leo. </p> 
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sollicitudin eros id felis laoreet sagittis. Aenean faucibus dui id lorem tincidunt dignissim. Nullam quis justo id nulla bibendum posuere sit amet quis quam. Donec in tempor leo. </p>
         <button2>Leia Mais</button2>
     </div>
     <div class="box">
+        <div id = "tira-meio">
+            SPECIALS
+        </div>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sollicitudin eros id felis laoreet sagittis. Aenean faucibus dui id lorem tincidunt dignissim. Nullam quis justo id nulla bibendum posuere sit amet quis quam. Donec in tempor leo. </p> 
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sollicitudin eros id felis laoreet sagittis. Aenean faucibus dui id lorem tincidunt dignissim. Nullam quis justo id nulla bibendum posuere sit amet quis quam. Donec in tempor leo. </p>
         <button2>Leia Mais</button2>
