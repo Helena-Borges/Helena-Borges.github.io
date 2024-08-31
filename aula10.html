@@ -259,12 +259,12 @@
 
         .caixa1 {
             background-color: rgb(13,31,41);/* Cor de fundo para a primeira caixa */
-            border: 5px solid #333;
+            border-color: rgb(13,31,41);
         }
 
         .caixa2 {
             background-color: rgb(13,31,41); /* Cor de fundo para a segunda caixa */
-            border: 5px solid #333;
+            border-color: rgb(13,31,41);
         }
         footer{
             background-color: rgb(13,31,41);
@@ -274,7 +274,7 @@
          .campo-texto {
             width: 100%; /* Ajusta a largura para preencher o contêiner pai */
             padding: 10px;
-            border: 1px solid #ccc;
+            border: 1px solid rgb(13,31,41);;
             border-radius: 5px;
             box-sizing: border-box; /* Inclui padding e borda na largura total */
         }
@@ -343,7 +343,9 @@
         <div class="caixa1">
             <span class="destaque4">fale conosco</span><br>
             <span class="arial-text2">Entre em contato conosco para um orçamento gratuito</span>
-    </div>
+            <label for="inputTexto">Digite algo:</label>
+            <input type="text" id="inputTexto" class="campo-texto" placeholder="Nome">
+            </div>
     <div class="caixa2">
     
     </div>
