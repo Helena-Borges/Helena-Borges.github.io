@@ -9,5 +9,76 @@
   <title>Criando seu crochê</title>
 </head>
 <body>
-  
+    <style>
+    .font {
+            font-size: 16px;
+            font-family: Georgia,Times,Times New Roman,serif; 
+        }
+    .font1 {
+            font-family: Palatino, Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, serif;
+            font-size: 70px;
+            font-weight: bold;
+        }
+    .font2 {
+            font-family: Palatino, Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, serif;
+            font-size: 16px;
+            font-weight: bold;
+        }
+    .font3 {
+            font-family: Palatino, Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, serif;
+            font-size: 45px;
+            font-weight: bold;
+        }
+    .font4 {
+            font-family: Palatino, Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, serif;
+            font-size: 25px;
+            font-weight: bolder;
+        }
+    button {
+                background: rgb(195, 195, 195);
+                border-radius: 5px;
+                display: inline-block;
+                border: none;
+                cursor: pointer;
+                width: 80px;
+                text-align: center;
+                margin: 30px;
+                padding: 5px;
+                float: center;
+                box-sizing: border-box;
+                font-weight: 1000;
+                font-family: Palatino, Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, serif;
+                color: black;
+        }
+        .container {
+            position: relative; 
+            width: 70%; 
+            border: none; 
+            overflow: hidden;
+            margin: 30px;
+            padding: 40px;
+            border-radius: 20px;
+            float: center;
+        }
+
+        .container::before {
+            content: ""; 
+            position: absolute; 
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(255, 255, 255, 0.5); 
+            z-index: 0; 
+        }
+
+        .content {
+            position: relative; 
+            color: black; 
+            z-index: 1; 
+            padding: 20px; 
+            box-sizing: border-box; 
+        }
+
+  </style>
 </body>
