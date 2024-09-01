@@ -57,48 +57,42 @@
                 font-family: Palatino, Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, serif;
                 color: black;
         }
-        .button1 {
-                color: black;
-                background-image: url('https://i.pinimg.com/1200x/0a/ba/b7/0abab7e05c42bbd3618c10e15a4d8344.jpg'); 
-                background-size: cover;
-                background-position: center;
-                border-radius: 50%;
-                border: none;
-                cursor: pointer;
-                width: 30vw;
-                height: 30vw;
-                text-align: center;
-                margin: 10px;
-                padding: 50px;
-                float: left;
-                flex: 1;
-                box-sizing: border-box;
-                display: inline-block; 
-                align-items: center; 
-                justify-content: center;     
-                overflow-wrap: break-word;
-                overflow: hidden;
-                opacity: 0.5;
+    button {
+            position: relative; /* Faz com que o botão seja o contexto de posicionamento para a sobreposição */
+            display: inline-block; /* Faz com que o botão ajuste seu tamanho ao conteúdo */
+            width: 30%; /* Define a largura do botão */
+            height: 50px; /* Define a altura do botão */
+            background-image: url('sua-imagem.jpg'); /* Define a imagem de fundo do botão */
+            background-size: cover; /* Faz com que a imagem cubra toda a área do botão */
+            background-position: center; /* Centraliza a imagem */
+            text-align: center; /* Alinha o texto ao centro */
+            color: white; /* Define a cor do texto */
+            border: none; /* Remove a borda padrão do botão */
+            cursor: pointer; /* Adiciona um cursor de ponteiro ao passar sobre o botão */
+            font-size: 16px; /* Define o tamanho da fonte */
+            font-weight: bold; /* Define o texto em negrito */
+            padding: 10px; /* Adiciona espaçamento interno ao botão */
+            outline: none; /* Remove o contorno padrão do botão ao focar */
         }
 
-        .button1::before {
-            content: ""; 
-            position: absolute; 
+        .button::before {
+            content: ''; /* Cria um conteúdo vazio para a sobreposição */
+            position: absolute; /* Posiciona a sobreposição sobre o botão */
             top: 0;
             left: 0;
             width: 100%;
             height: 100%;
-            background-color: rgba(255, 255, 255, 0.5); 
-            z-index: 0; 
+            background: rgba(0, 0, 0, 0.5); /* Cor de fundo preta com 50% de opacidade */
+            z-index: 1; /* Garante que a sobreposição esteja acima da imagem */
+            pointer-events: none; /* Faz com que a sobreposição não interfira na interação com o botão */
         }
 
-        .content {
-            position: relative; 
-            color: black; 
-            z-index: 1; 
-            padding: 20px; 
-            box-sizing: border-box; 
+        .button span {
+            position: relative; /* Garante que o texto esteja acima da sobreposição */
+            z-index: 2; /* Garante que o texto esteja acima da sobreposição */
         }
+    </style>
+</head>
 </style>
 <br>
 <br>
