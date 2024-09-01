@@ -57,15 +57,6 @@
                 font-family: Palatino, Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, serif;
                 color: black;
         }
-        .container {
-            position: relative; 
-            width: 100%; 
-            border: none; 
-            overflow: hidden;
-            margin: 30px;
-            padding: 40px;
-            float: center;
-        }
         button1{
                 color: black;
                 background: rgb(237, 207, 237);
@@ -93,6 +84,46 @@
             height: 150px;
             border-radius: 50%; 
             object-fit: cover; 
+        }
+        .container1 {
+                color: black;
+                background-image: url('https://i.pinimg.com/1200x/0a/ba/b7/0abab7e05c42bbd3618c10e15a4d8344.jpg'); 
+                background-size: cover;
+                background-position: center;
+                border-radius: 50%;
+                border: none;
+                cursor: pointer;
+                width: 30vw;
+                height: 30vw;
+                text-align: center;
+                margin: 10px;
+                padding: 50px;
+                float: left;
+                flex: 1;
+                box-sizing: border-box;
+                display: inline-block; 
+                align-items: center; 
+                justify-content: center;     
+                overflow-wrap: break-word;
+        }
+
+        .container1::before {
+            content: ""; 
+            position: absolute; 
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(255, 255, 255, 0.5); 
+            z-index: 0; 
+        }
+
+        .content {
+            position: relative; 
+            color: black; 
+            z-index: 1; 
+            padding: 20px; 
+            box-sizing: border-box; 
         }
 </style>
 <br>
