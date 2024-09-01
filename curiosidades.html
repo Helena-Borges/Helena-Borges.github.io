@@ -90,6 +90,32 @@
                 overflow: hidden; 
                 opacity: 1;
         }
+        .container {
+            position: relative; 
+            width: 80%; 
+            border: none; 
+            overflow: hidden;
+        }
+
+        .container::before {
+            content: ""; 
+            position: absolute; 
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(255, 255, 255, 0.3); 
+            z-index: 0; 
+        }
+
+        .content {
+            position: relative; 
+            color: black; 
+            z-index: 1; 
+            padding: 20px; 
+            box-sizing: border-box; 
+        }
+
   </style>
 <body>
 <br>
@@ -101,23 +127,23 @@
   <p><span class="font1">Curiosidades</span></p>
 </center>
 <p><button onclick="window.location.href='https://Helena-Borges.github.io/croche';"><span class"font4"><bold>VOLTAR</bold></span></button></p>
-<div class="box">
-<div class="texto">
+<div class="container">
+<div class="content">
 <p><span class="font3">O que é crochê?</span></p>
 <p><span class="font">O crochê é uma técnica de costura que consiste em criar tecidos a partir de fios e de uma agulha especial com gancho na ponta. A palavra "crochê" vem do francês "crochet", que significa "gancho". O crochê pode ser usado para fazer diversos tipos de peças, como: 
 Tapetes, Mantas, Casacos, Blusas, Vestidos, Biquínis, Gorros, Lenços de pescoço, Chapéus. 
 Os fios utilizados para fazer crochê podem ser de lã, algodão, seda, barbante ou arame.</span> </p>
 </div>
 </div>
-<div class="box">
-<div class="texto">
+<div class="container">
+<div class="content">
 <p><span class="font3">Origem</span></p>
 <p><span class="font">As origens dessa arte milenar ainda são incertas. Alguns acreditam que o seu surgimento se deu na pré-história, outros acreditam que foi 1500 anos antes de Cristo e há quem diga que o crochê existe desde que o ser humano iniciou as civilizações. Seja como for, essa arte manual está na história há milhares de anos.  
 Há indícios que no início, o crochê existia para o vestuário masculino, voltado para caça e pesca, e a arte era feita apenas com os dedos.  </span> </p>
 </div>
 </div>
-<div class="box">
-<div class="texto">
+<div class="container">
+<div class="content">
 <p><span class="font3">Curiosidades</span></p>
 <p><span class="font">
   <ul>
