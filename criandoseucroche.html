@@ -58,12 +58,8 @@
                 color: black;
         }
     button1 {
-            background-image: url('https://i.pinimg.com/1200x/0a/ba/b7/0abab7e05c42bbd3618c10e15a4d8344.jpg'); 
-            background-size: cover; 
-            background-position: center; 
-            background-repeat: no-repeat;
             position: relative; 
-            width: 30vw; 
+            width: 30%; 
             height: 30vw;
             border: none; 
             overflow: hidden;
@@ -93,6 +89,25 @@
             padding: 20px; 
             box-sizing: border-box; 
         }
+        .background {
+            position: absolute; 
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0.5; 
+            background-image: url('https://i.pinimg.com/1200x/0a/ba/b7/0abab7e05c42bbd3618c10e15a4d8344.jpg'); 
+            background-size: cover; 
+            background-position: center; 
+            background-repeat: no-repeat;
+        }
+
+        .content {
+            position: relative; 
+            color: black; 
+            z-index: 1;
+            padding: 20px; 
+        }
     </style>
 </head>
 </style>
@@ -106,6 +121,7 @@
 <p><button onclick="window.location.href='https://Helena-Borges.github.io/croche';"><span class"font4">VOLTAR</span></button></p>
 <p><span class="font3">Diferentes tipos de pontos</span></p>
 <button1 onclick="window.location.href='https://www.youtube.com/watch?v=8vtrxf6uX4E';">
+<div class="background"></div>
 <id class="content">
     <p><span class="font4">Ponto Baixíssimo</span></p>
     <p><span class="font">Ele é um ponto para dar acabamento uma vez que é bastante discreto. Utilizando-o, é possível fazer a junção de diferentes carreiras, reforçar as bordas e também fazer a finalização das peças.</span></p>
