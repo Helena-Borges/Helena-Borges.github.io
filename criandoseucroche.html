@@ -170,6 +170,27 @@
             background-position: center; 
             background-repeat: no-repeat;
         }
+        .box1 {
+            position: relative; 
+            width: 23%; 
+            border: none; 
+            overflow: hidden;
+            margin: 30px;
+            padding: 40px;
+            border-radius: 20px;
+            float: center;
+        }
+
+        .box1::before {
+            content: ""; 
+            position: absolute; 
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(255, 255, 255, 0.5); 
+            z-index: 0; 
+        }
     </style>
 </head>
 </style>
@@ -183,7 +204,12 @@
 <p><button onclick="window.location.href='https://Helena-Borges.github.io/croche';"><span class"font4">VOLTAR</span></button></p>
 <p><span class="font3">Materiais necessários</span></p>
 <div id="boxes">
-    
+    <div class="box1">
+      <id class="content">
+        <p><span class="font4">Agulha</span></p>
+        <p><span class="font">Existem vários tipos de tamanho de agulhas, desde as finas até as mais grossas. No início, opte por uma fina, já que com ela é mais fácil de trabalhar.</span></p>
+      </id>
+    </div>
 </div>
 <p><span class="font3">Diferentes tipos de pontos</span></p>
 <div id="boxes">
