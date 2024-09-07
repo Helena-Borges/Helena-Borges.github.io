@@ -127,15 +127,15 @@ section {
 	background-color: rgb(211, 240, 254);
 	padding: 20px;
 	width: 200px;
-}
-.box blockquote::after {
-	content:"";
-        position: absolute;
-        bottom: -15px;
-        left: 15px; /
-        border-width: 15px; /
-        border-style: solid;
-        border-color: rgb(211, 240, 254); 
+	clip-path: polygon(
+                0% 0%, 
+                100% 0%, 
+                100% 66.67%, 
+                53.33% 66.67%, 
+                46.67% 76.67%, 
+                40% 66.67%, 
+                0% 66.67%
+            );
 }
 
 .button {
