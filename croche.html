@@ -121,13 +121,27 @@
             width: 100%;
             vertical-align: bottom;
   }
-  footer{
-  
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.5); 
+    z-index: 1; 
+}
+
+  content{
+     z-index: 2;
   }
 </style> 
 <header>
+  <div class="overlay">
+  <content>
   <p><span class="font1">Crochê</span></p>
   <span class="fontp">FEITO POR: HELENA BORGES E LETÍCIA LIMA</span>
+  </content>
+  </div>
 </header>
 <div class="linha"></div>
 <main>
