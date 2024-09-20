@@ -167,27 +167,16 @@
             background-position: center; 
             background-repeat: no-repeat;
         }
-        .box {
+        .box1 {
             position: relative; 
             width: 23%; 
             border: none; 
             overflow: hidden;
-            margin: 30px;
             padding: 40px;
             border-radius: 20px;
-        }
-
-        .box1::before {
-            content: ""; 
-            flex: 1
-            position: absolute; 
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(255, 255, 255, 0.5); 
-            z-index: 0; 
-            float: left;
+            grid-collum: 1;
+            grid-row: 1;
+            background: #cf9bcc;
         }
   .box2 {
             position: relative; 
@@ -197,21 +186,12 @@
             margin: 30px;
             padding: 40px;
             border-radius: 20px;
-            float: center;
+            grid-collum: 2;
+            grid-row: 1;
+            background: #cf9bcc;
         }
 
-        .box2::before {
-            content: ""; 
-            flex: 1
-            position: absolute; 
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(255, 255, 255, 0.5); 
-            z-index: 0; 
-            float: center;
-        }
+
   .box3 {
             position: relative; 
             width: 23%; 
@@ -220,20 +200,9 @@
             margin: 30px;
             padding: 40px;
             border-radius: 20px;
-            float: right;
-        }
-
-        .box3::before {
-            content: ""; 
-            flex: 1
-            position: absolute; 
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(255, 255, 255, 0.5); 
-            z-index: 0; 
-            float: right;
+            grid-collum: 1;
+            grid-row: 1;
+            background: #cf9bcc;
         }
   header{
     margin: 0px;
@@ -264,19 +233,19 @@
 <p><button onclick="window.location.href='https://Helena-Borges.github.io/croche';"><span class"font4">VOLTAR</span></button></p>
 <p><span class="font3">Materiais necessários</span></p>
 <div id="boxes">
-    <div class="box">
+    <div class="box1">
       <id class="content">
         <p><span class="font4">Agulha</span></p>
         <p><span class="font">Existem vários tipos de tamanho de agulhas, desde as finas até as mais grossas. No início, opte por uma fina, já que com ela é mais fácil de trabalhar.</span></p>
       </id>
     </div>
-    <div class="box">
+    <div class="box2">
       <id class="content">
         <p><span class="font4">Linha</span></p>
         <p><span class="font">Utilize sempre a linha com espessura ideal de acordo com a agulha que irá manusear. Fique à vontade para escolher a cor!</span></p>
       </id>
     </div>
-    <div class="box">
+    <div class="box3">
       <id class="content">
         <p><span class="font4">Tesoura</span></p>
         <p><span class="font">A tesoura é essencial para arrematar e cortar os fios. Por isso, tenha sempre ao seu lado uma que corte bem</span></p>
