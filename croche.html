@@ -36,16 +36,15 @@
                 cursor: pointer;
                 width: 30%;
                 height: 300px;
+                text-align: center;
                 margin: 15px;
                 padding: 30px;
+                box-sizing: border-box;
                 overflow-wrap: break-word;
-                display: flex; 
-                justify-content: center;
-                align-items: center; 
         }
         button:hover {
             background-color: rgb(173, 194, 235); 
-        
+        }
         .font {
             font-size: 16px;
             font-family: Georgia,Times,Times New Roman,serif; 
@@ -84,12 +83,9 @@
             width: 100%;
             vertical-align: bottom;
   }
-.container {
-    display: grid; 
-    grid-template-columns: repeat(3, 1fr); 
-    gap: 10px;
-    height: 200px; 
-}
+  footer{
+  
+  }
 </style> 
 <header>
   <p><span class="font1">Crochê</span></p>
@@ -97,7 +93,7 @@
 </header>
 <div class="linha"></div>
 <main>
-<div id = "container">
+<div id = "boxes">
 <button onclick="window.location.href='https://Helena-Borges.github.io/curiosidades';">
     <span class="font2">Curiosidades</span><br>
     <p><span class="font">Nessa página nós compilamos alguns assuntos diferentes como: curiosidades, explicar o que é Crochê, uma seção sobre a história da prática 
