@@ -10,9 +10,17 @@
 </head>
 <body>
 <style> 
-     body {
-        margin: 0;
-      }
+     * {
+            margin-top: 0px;
+            margin-left: 0px;
+            margin-right: 0px;
+            margin-bottom: 0px;
+            padding-left: 0px;
+            padding-right: 0px;
+            padding-top: 0px;
+            padding-bottom: 0px;
+            box-sizing: border-box; 
+        }
             html {
                 font-family: Palatino, Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, serif;
             }
@@ -103,12 +111,13 @@
   header{
     margin: 0px;
     padding: 0px;
-    background-image: url('https://img.freepik.com/fotos-gratis/textura-de-tecido-de-camada-plana_23-2148882831.jpg');
+    background-image: url('https://img.freepik.com/fotos-gratis/fechar-o-detalhe-da-textura-aconchegante_23-2149385250.jpg');
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
     text-align: center;
-    heigth: 500px;
+    justify-content: center; 
+    align-items: center;
   }
   main{
     background: #cf9bcc;
@@ -124,19 +133,22 @@
   }
 .overlay {
     position: relative;
-    background-color: rgba(249,236,249, 0.5); 
+    background-color: rgba(249,236,249, 0.8); 
     z-index: 1; 
-    height: 500px;
     width: 100%;
+    height: 100%;
     margin: 0px;
 }
 
   content{
      z-index: 2;
      width: 100%;
-     height: 500px;
-     padding: 50px;
+     padding: 100px;
      text-align: center;
+     height: 100%;
+     text-align: center;
+    justify-content: center; 
+    align-items: center;
   }
 </style> 
 <header>
