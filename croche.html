@@ -8,19 +8,13 @@
   <meta name="description" content="Site de crochê">
   <title>Crochê</title>
 </head>
+<style>
+  body {
+  margin: 0px;
+  }
+</style>
 <body>
 <style> 
-     * {
-            margin-top: 0px;
-            margin-left: 0px;
-            margin-right: 0px;
-            margin-bottom: 0px;
-            padding-left: 0px;
-            padding-right: 0px;
-            padding-top: 0px;
-            padding-bottom: 0px;
-            box-sizing: border-box; 
-        }
             html {
                 font-family: Palatino, Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, serif;
             }
@@ -29,64 +23,73 @@
                 text-align:center;
             }
         .boxes {
-            display: grid; 
-            grid-template-columns: auto auto auto; 
-            grid-template-row: auto;
-            gap: 20px; 
+            display: flex; 
+            justify-content: space-between; 
+            gap: 30px;
+            
         }
             button {
                 color: black;
-                background-color: rgb(245, 247, 244);
+                background-color: rgb(115, 147, 179);
                 border-radius: 40px;
+                display: inline-block;
                 font-size: 16px;
                 border: none;
                 cursor: pointer;
-                width: 28%;
-                height: 100px;
+                width: 30%;
+                height: 300px;
                 text-align: center;
                 margin: 15px;
                 padding: 30px;
+                float: left;
+                flex: 1;
                 box-sizing: border-box;
                 overflow-wrap: break-word;
         }
         button:hover {
-            background-color:  #f9ecf9; 
+            background-color: rgb(218, 185, 241) ; 
         }
         button2 {
                 color: black;
-                background-color: rgb(245, 247, 244);
+                background-color: rgb(115, 147, 179);
                 border-radius: 40px;
+                display: inline-block;
                 font-size: 16px;
                 border: none;
                 cursor: pointer;
-                width: 28%;
-                height: 100px;
+                width: 30%;
+                height:300px;
                 text-align: center;
                 margin: 15px;
                 padding: 30px;
+                float: center;
+                flex: 1;
                 box-sizing: border-box;
                 overflow-wrap: break-word;
         }
         button2:hover {
-            background-color: #f9ecf9; 
+            background-color: rgb(255, 250, 180); 
         }
         button3 {
                 color: black;
-                background-color: rgb(245, 247, 244);
+                background-color: rgb(115, 147, 179);
                 border-radius: 40px;
+                display: inline-block;
                 font-size: 16px;
                 border: none;
                 cursor: pointer;
-                width: 28%;
-                height: 100px;
+                width: 30%;
+                height: 300px;
                 text-align: center;
                 margin: 15px;
                 padding: 30px;
+                float: right;
+                flex: 1;
                 box-sizing: border-box;
                 overflow-wrap: break-word;
         }
         button3:hover {
-            background-color: #f9ecf9; 
+            background-color: rgb(221, 255, 205); 
         }
         .font {
             font-size: 16px;
@@ -110,18 +113,12 @@
 }
   header{
     margin: 0px;
-    padding: 0px;
-    background-image: url('https://img.freepik.com/fotos-gratis/fechar-o-detalhe-da-textura-aconchegante_23-2149385250.jpg');
-    background-size: cover; 
-    background-position: center; 
-    background-repeat: no-repeat;
+    padding: 50px;
+    background: #cf9bcc;
     text-align: center;
-    justify-content: center; 
-    align-items: center;
-    height: 300px;
   }
   main{
-    background: #cf9bcc;
+    background: rgb(245, 247, 244);
     padding: 50px;
     margin: 0px;
   }
@@ -132,32 +129,13 @@
             width: 100%;
             vertical-align: bottom;
   }
-.overlay {
-    position: relative;
-    background-color: rgba(249,236,249, 0.8); 
-    z-index: 1; 
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-}
-
-  content{
-     z-index: 2;
-     width: 100%;
-     padding: 100px;
-     text-align: center;
-     height: 100%;
-     text-align: center;
-    justify-content: center; 
-    align-items: center;
+  footer{
+  
   }
 </style> 
 <header>
-  <div class="overlay">
-  <div class="content">
   <p><span class="font1">Crochê</span></p>
-  </div>
-  </div>
+  <span class="fontp">FEITO POR: HELENA BORGES E LETÍCIA LIMA</span>
 </header>
 <div class="linha"></div>
 <main>
@@ -178,6 +156,5 @@
     links de sites com o mesmo intuito do nosso e lojas que vendem produtos de crochê.</span></p>
 </button3>
 </div>
-</main>
 </body>
 </html>
