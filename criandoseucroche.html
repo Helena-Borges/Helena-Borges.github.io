@@ -211,27 +211,70 @@
             width: 100%;
             display: inline-block;
         }
-        .div {
-            background-color: rgb(245, 247, 244);
-            padding: 20px;
-            margin: 20px;
-            width: 25%;
-            display: inline-block;
+  .boxes {
+            display: flex; 
+            justify-content: space-between; 
+            gap: 15px;
+            margin: 30px;
         }
-        .div2 {
-            background-color: rgb(245, 247, 244);
-            padding: 20px;
-            margin: 10px;
-            width: 25%;
-            display: inline-block;
-        }
-        .div3 {
-            background-color: rgb(245, 247, 244);
-            padding: 20px;
-            margin: 10px;
-            width: 25%;
-            display: inline-block;
-        }
+        boxl {
+                color: black;
+                background: rgb(115, 147, 179);
+                border-radius: 30px;
+                border: none;
+                cursor: pointer;
+                width: 30vw;
+                height: 15vw;
+                text-align: center;
+                margin: 10px;
+                padding: 50px;
+                float: left;
+                box-sizing: border-box;
+                flex: 1;
+                display: inline-block;
+                align-items: center; 
+                justify-content: center; 
+                overflow-wrap: break-word;
+            }
+        boxm{
+                color: black;
+                background: rgb(115, 147, 179);
+                border-radius: 30px;
+                border: none;
+                cursor: pointer;
+                width: 30vw;
+                height: 15vw;
+                text-align: center;
+                margin: 10px;
+                padding: 50px;
+                float: center;
+                flex: 1;
+                box-sizing: border-box;
+                display: inline-block; 
+                align-items: center; 
+                justify-content: center;     
+                overflow-wrap: break-word;
+            }
+          boxr{
+                color: black;
+                background: rgb(115, 147, 179);
+                border-radius: 30px;
+                border: none;
+                cursor: pointer;
+                width: 30vw;
+                height: 15vw;
+                text-align: center;
+                margin: 10px;
+                padding: 50px;
+                float: right;
+                flex: 1;
+                box-sizing: border-box;
+                display: inline-block;
+                align-items: center; 
+                justify-content: center; 
+                overflow-wrap: break-word; 
+            
+            }
   </style>
 </head>
 </style>
@@ -242,20 +285,20 @@
 <main>
 <p><button onclick="window.location.href='https://Helena-Borges.github.io/croche';"><span class"font4">VOLTAR</span></button></p>
 <p><span class="font3">Materiais necessários</span></p>
-<div id="container">
-    <div class="div">
+<div id="boxes">
+    <div class="boxl">
       <id class="content">
         <p><span class="font4">Agulha</span></p>
         <p><span class="font">Existem vários tipos de tamanho de agulhas, desde as finas até as mais grossas. No início, opte por uma fina, já que com ela é mais fácil de trabalhar.</span></p>
       </id>
     </div>
-    <div class="div">
+    <div class="boxm">
       <id class="content">
         <p><span class="font4">Linha</span></p>
         <p><span class="font">Utilize sempre a linha com espessura ideal de acordo com a agulha que irá manusear. Fique à vontade para escolher a cor!</span></p>
       </id>
     </div>
-    <div class="div">
+    <div class="boxr">
       <id class="content">
         <p><span class="font4">Tesoura</span></p<br>
         <p><span class="font">A tesoura é essencial para arrematar e cortar os fios. Por isso, tenha sempre ao seu lado uma que corte bem</span></p>
