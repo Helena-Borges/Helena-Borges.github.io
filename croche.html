@@ -23,13 +23,11 @@
                 text-align:center;
             }
         .boxes {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 10px;
-            align-items: center;
-            justify-content: center;
+            display: flex; 
+            justify-content: space-between; 
+            gap: 15px;
         }
-            button {
+            buttonl {
                 color: black;
                 background-color: rgb(115, 147, 179);
                 border-radius: 40px;
@@ -42,6 +40,40 @@
                 padding: 30px;
                 overflow-wrap: break-word;
                 margin: 10px;
+                flex: 1;
+                float: left;
+            }
+              buttonc {
+                color: black;
+                background-color: rgb(115, 147, 179);
+                border-radius: 40px;
+                font-size: 16px;
+                border: none;
+                cursor: pointer;
+                width: 30%;
+                height: 23vw;
+                text-align: center;
+                padding: 30px;
+                overflow-wrap: break-word;
+                margin: 10px;
+                flex: 1;
+                float: center;
+              }
+                buttonr {
+                color: black;
+                background-color: rgb(115, 147, 179);
+                border-radius: 40px;
+                font-size: 16px;
+                border: none;
+                cursor: pointer;
+                width: 30%;
+                height: 23vw;
+                text-align: center;
+                padding: 30px;
+                overflow-wrap: break-word;
+                margin: 10px;
+                flex: 1;
+                float: right;
         }
         button:hover {
             background-color: rgb(173, 194, 235); 
@@ -92,21 +124,21 @@
 <div class="linha"></div>
 <main>
 <div id="boxes">
-<button onclick="window.location.href='https://helena-borges.github.io/curiosidades';">
+<buttonl onclick="window.location.href='https://helena-borges.github.io/curiosidades';">
     <span class="font2">Curiosidades</span><br>
     <p><span class="font">Nessa página nós compilamos alguns assuntos diferentes como: curiosidades, explicar o que é Crochê, uma seção sobre a história da prática 
     de crochê e esclarecimentos de dúvidas comuns. Essa página tem como seu objetivo contextualizar você sobre a arte de crochetar.</span></p>
-</button>
-<button onclick="window.location.href='https://helena-borges.github.io/criandoseucroche';">
+</buttonl>
+<buttonc onclick="window.location.href='https://helena-borges.github.io/criandoseucroche';">
     <span class="font2">Criando seu Crochê</span>
     <p><span class="font">Nessa página terá diferentes tipos de pontos destinado a pessoas em qualquer nível desde o iniciante até o avançado, técnicas também para todos os 
     públicos que focam em ensinar a fazer o crochê do jeito mais descomplicado possível. Também tendo um foco em corrigir erros comuns de iniciantes.</span></p>
-</button>
-<button onclick="window.location.href='https://helena-borges.github.io/expandindoseuconhecimento';">
+</buttonc>
+<buttonr onclick="window.location.href='https://helena-borges.github.io/expandindoseuconhecimento';">
     <span class="font2">Expandindo seu conhecimento</span>
     <p><span class="font">Aqui achamos alguns canais que te ajudarão na sua jornada, principalmente conteúdos que seria complicado de demostrar como fazer em texto. Também adicionamos 
     links de sites com o mesmo intuito do nosso e lojas que vendem produtos de crochê.</span></p>
-</button>
+</buttonr>
 </div>
 </body>
 </html>
