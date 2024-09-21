@@ -87,6 +87,7 @@
             padding: 10px; 
             align-items: center;
             text-align: center;
+            justify-content: center;
         }
         .background {
             position: absolute; 
@@ -213,11 +214,17 @@
             display: flex;
         }
 
-  .box {
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
+    padding: 20px;
+}
+
+.grid-item {
     border: none;
     padding: 20px;
-    flex: 1; 
-    margin: 10px;
+    text-align: center;
 }
   </style>
 </head>
@@ -229,24 +236,18 @@
 <main>
 <a href="https://helena-borges.github.io/croche"><img scr="https://e7.pngegg.com/pngimages/587/582/png-clipart-computer-icons-encapsulated-postscript-back-icon-angle-text.png"></a>
 <p><span class="font3">Materiais necessários</span></p>
-<div id="container">
-    <div class="box">
-      <id class="content">
+<div id="grid-container">
+    <div class="grid-item">
         <p><span class="font4">Agulha</span></p>
         <p><span class="font">Existem vários tipos de tamanho de agulhas, desde as finas até as mais grossas. No início, opte por uma fina, já que com ela é mais fácil de trabalhar.</span></p>
-      </id>
     </div>
-    <div class="box">
-      <id class="content">
+    <div class="grid-item">
         <p><span class="font4">Linha</span></p>
         <p><span class="font">Utilize sempre a linha com espessura ideal de acordo com a agulha que irá manusear. Fique à vontade para escolher a cor!</span></p>
-      </id>
     </div>
-    <div class="box">
-      <id class="content">
+    <div class="grid-item">
         <p><span class="font4">Tesoura</span></p<br>
         <p><span class="font">A tesoura é essencial para arrematar e cortar os fios. Por isso, tenha sempre ao seu lado uma que corte bem</span></p>
-      </id>
     </div>
 </div>
 <div class="linha"></div>
