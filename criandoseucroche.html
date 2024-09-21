@@ -213,24 +213,31 @@
             width: 100%;
             display: flex;
         }
-
-  .grid-container {
-    display: flex;
-    gap: 10px; 
-    padding: 20px;
-}
-box {
-            position: relative; 
-            width: 23vw; 
-            height: 23vw;
-            border: none; 
-            overflow: hidden;
-            margin: 15px;
-            float: left;
-            text-align: center;
-            align-items: center;
-            cursor: pointer;
-            padding: 5px;
+.container1 {
+            width: 100%;
+            height:190px;
+            padding-top:20px;
+            padding-left:15px;
+            padding-right:15px;
+        }
+        boxleft {
+            float:left;
+            width: 25%;
+            height:160px;
+            border: none;
+        }
+        boxmiddle {
+            float:left;
+            width: 25%;
+            height: 160px;
+            border: solid none;
+            margin-left: 20px;
+        }
+        boxright {
+            float:right;
+            width: 25%;
+            height: 160px;
+            border: none;
         }
 
   </style>
@@ -245,18 +252,20 @@ box {
         <img src="https://static.vecteezy.com/system/resources/previews/002/205/875/non_2x/backward-arrow-icon-free-vector.jpg" style="width: 60px; border-radius: 50%;">
     </a>
 <p><span class="font3">Materiais necessários</span></p>
-    <div class="box">
+<div class="container1">
+    <div class="boxleft">
         <p><span class="font4">Agulha</span></p>
         <p><span class="font2">Existem vários tipos de tamanho de agulhas,<br>desde as finas até as mais grossas. No início,<br>opte por uma fina, já que com ela é<br>mais fácil de trabalhar.</span></p>
     </div>
-    <div class="box">
+    <div class="boxmiddle">
         <p><span class="font4">Linha</span></p>
         <p><span class="font2">Utilize sempre a linha com espessura ideal <br>de acordo com a agulha que irá manusear. Fique <br>à vontade para escolher a cor!</span></p>
     </div>
-    <div class="box">
+    <div class="boxright">
         <p><span class="font4">Tesoura</span></p<br>
         <p><span class="font2">A tesoura é essencial para arrematar e cortar<br> os fios. Por isso, tenha sempre ao seu lado <br>uma que corte bem</span></p>
     </div>
+</div>
 <div class="linha"></div>
 <br>
 <p><span class="font3">Diferentes tipos de pontos</span></p>
