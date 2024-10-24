@@ -1,5 +1,10 @@
+@media (max-width: 540px)
+{
 cartao {
-  display: flex;
+  width: 100px;
+  align: center;
+  margin: 0px;
+  padding: 0px;
 }
 h1 {
   font-weight: 1000;
@@ -9,9 +14,14 @@ link {
   color: purple;
 }
 img{
-  width: 40%;
+  width: 100%;
 }
 cinza{
-  background: #d0d5db
+  background: #d0d5db;
   content-align: center;
+  margin: 0px;
 }
+}
+@media (min-width: 540px)
+{
+  
