@@ -21,7 +21,7 @@
 
     @media (max-width: 540px) {
       .card {
-        flex-direction: column; /* Imagem em cima */
+        flex-direction: column;
       }
 
       .card-image {
