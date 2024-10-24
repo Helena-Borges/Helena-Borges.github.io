@@ -147,4 +147,7 @@
   text-decoration: none; 
   vertical-align: middle;
 }
+.box .glyphicon {
+  font-size: 40px;
+}
 
