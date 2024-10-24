@@ -115,6 +115,8 @@
             align-items: center;
             margin: 10px;
             padding: 13px;
+            color: white;
+            font-weight: 20px;
         }
     footer{
         background: rgb(76, 166, 140);
