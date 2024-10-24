@@ -8,3 +8,10 @@ h1 {
 link {
   color: purple;
 }
+img{
+  width: 40%;
+}
+cinza{
+  background: #d0d5db
+  content-align: center;
+}
