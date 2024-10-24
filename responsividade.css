@@ -32,7 +32,10 @@
         order: 2;
       }
     }
-
+      .cinza{
+            width: 100%;
+            background-color: #d9d6ce;
+      }
     @media (min-width: 541px) {
       .card {
         flex-direction: row;
@@ -45,5 +48,9 @@
       .card-content {
         width: 60%; 
         padding: 20px;
+      }
+      .cinza{
+            width: 40%;
+            background-color: #d9d6ce;
       }
     }
