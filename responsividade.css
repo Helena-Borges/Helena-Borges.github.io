@@ -1,3 +1,10 @@
-div {
+cartao {
   display: flex;
+}
+h1 {
+  font-weight: 1000;
+  font-size: 30%;
+}
+button {
+  color: purple;
 }
