@@ -1,8 +1,7 @@
 @media (max-width: 540px)
 {
 cartao {
-  width: 100px;
-  align: center;
+  width: 100%;
   margin: 0px;
   padding: 0px;
 }
@@ -24,4 +23,29 @@ cinza{
 }
 @media (min-width: 540px)
 {
+  cartao {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+}
+h1 {
+  font-weight: 1000;
+  font-size: 40px;
+}
+link {
+  color: purple;
+}
+img{
+  width: 40%;
+}
+cinza{
+  background-color: #d0d5db;
+  content-align: center;
+  margin: 0px;
+  width: 100%;
+}
+texto{
+  padding: 10px;
   
+}
