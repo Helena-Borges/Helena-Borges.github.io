@@ -80,7 +80,7 @@
     h6{
         font-weight: 750;
         color: white;
-        font-size: 45px;
+        font-size: 50px;
     }
     .branca{
         padding: 30px 150px;
@@ -116,7 +116,6 @@
             margin: 10px;
             padding: 13px;
             color: white;
-            font-weight: 20px;
         }
     footer{
         background: rgb(76, 166, 140);
@@ -146,8 +145,5 @@
   font-weight: 700; 
   text-decoration: none; 
   vertical-align: middle;
-}
-.box .glyphicon {
-  font-size: 40px;
 }
 
