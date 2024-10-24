@@ -19,9 +19,6 @@
         padding: 30px 200px;
         color: white;
     }
-    glyphicon {
-      color: white;
-    }
     box{
         display: inline-block;
         gap: 0;
@@ -142,9 +139,10 @@
     width: 100%;
     height: auto; 
     }
-.glyphicon-custom {
+.glyphicon {
   color: white; 
   font-weight: 700; 
   text-decoration: none; 
   vertical-align: middle;
 }
+
