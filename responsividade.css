@@ -27,7 +27,7 @@ cinza{
   width: 100%;
   margin: 0px;
   padding: 0px;
-  display: flex;
+  display: inline;
 }
 h1 {
   font-weight: 1000;
