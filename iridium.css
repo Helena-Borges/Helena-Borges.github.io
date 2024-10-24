@@ -50,7 +50,7 @@ main{
                 align-content: center;
             } 
 button {
-            padding: 10px 20px; 
+            padding: 5% 10%; 
             cursor: pointer; 
             background-color: transparent; 
             border: 1px solid white; 
