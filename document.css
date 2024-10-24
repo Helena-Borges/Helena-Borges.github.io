@@ -142,3 +142,9 @@
     width: 100%;
     height: auto; 
     }
+.glyphicon-custom {
+  color: white; 
+  font-weight: 700; 
+  text-decoration: none; 
+  vertical-align: middle;
+}
