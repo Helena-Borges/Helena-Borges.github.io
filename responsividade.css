@@ -16,6 +16,7 @@
     justify-content: center;
     word-break: break-all; 
     text-align: center;
+    box-sizing: border-box;
   }
   .cinza {
     width: 100%;
