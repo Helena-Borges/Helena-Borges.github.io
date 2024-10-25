@@ -10,7 +10,7 @@
   }
   .card-content {
     width: 100%;
-    padding: 30px;
+    padding: 10%;
     background-color: #f9f9f9;
   }
   .cinza {
@@ -21,8 +21,7 @@
   }
   img {
     width: 30%;
-    align-items: center; 
-    justify-content: center;
+    margin: 30%;
   }
    a {
   float: right;
