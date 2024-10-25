@@ -9,7 +9,7 @@ h1{
   text-align:center;
 }
 .boxes {
-  display: flex; 
+  display: inline-block;
   justify-content: space-between; 
   gap: 15px;
   margin: 30px;
@@ -25,9 +25,7 @@ buttonl {
   text-align: center;
   margin: 10px;
   padding: 50px;
-  float: left;
   box-sizing: border-box;
-  flex: 1;
   display: inline-block;
   align-items: center; 
                 justify-content: center; 
@@ -47,8 +45,6 @@ buttonl {
                 text-align: center;
                 margin: 10px;
                 padding: 50px;
-                float: center;
-                flex: 1;
                 box-sizing: border-box;
                 display: inline-block; 
                 align-items: center; 
@@ -69,8 +65,6 @@ buttonl {
                 text-align: center;
                 margin: 10px;
                 padding: 50px;
-                float: right;
-                flex: 1;
                 box-sizing: border-box;
                 display: inline-block;
                 align-items: center; 
