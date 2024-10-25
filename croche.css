@@ -9,8 +9,8 @@ h1{
   text-align:center;
 }
 .boxes {
-  display: inline-block;
-  justify-content: space-between; 
+  display: grid; 
+  grid-template-columns: repeat(3, 1fr); 
   gap: 15px;
   margin: 30px;
   }
