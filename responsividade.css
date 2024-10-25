@@ -10,7 +10,7 @@
     }
 
     .card-image img {
-      width: 100%;
+      width: 40%;
       height: auto;
     }
 
@@ -52,5 +52,6 @@
       .cinza{
             width: 40%;
             background-color: #d9d6ce;
+            padding: 40px;
       }
     }
