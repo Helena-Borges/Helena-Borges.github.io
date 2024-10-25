@@ -23,16 +23,12 @@
       .card {
         flex-direction: column;
       }
-
-      .card-image {
-        order: 1;
-      }
-
       .card-content {
         order: 2;
       }
     }
       .cinza{
+            order: 1;
             width: 100%;
             background-color: #d9d6ce;
             heigth: 100%;
@@ -42,9 +38,6 @@
         flex-direction: row;
       }
 
-      .card-image {
-        width: 40%; 
-      }
 
       .card-content {
         width: 60%; 
