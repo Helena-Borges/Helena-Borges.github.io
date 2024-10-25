@@ -16,7 +16,7 @@
             width: 100%;
             background-color: #d9d6ce;
       }
-      .card .img{
+     img{
             width: 30px;
       }
           
@@ -41,7 +41,7 @@
             background-color: #d9d6ce;
             padding: 40px;
       }
-      .card .img{
+      img{
             width: 50px;
       }
     }
