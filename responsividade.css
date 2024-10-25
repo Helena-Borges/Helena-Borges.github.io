@@ -1,37 +1,37 @@
-.card {
+
+    @media (max-width: 540px) {
+      .card {
       border: 1px solid #ccc;
       border-radius: 8px;
       overflow: hidden;
       max-width: 600px;
       margin: 20px auto;
+      flex-direction: row;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
-
-    .card-image img {
-      width: 10%;
-    }
-
-    .card-content {
-      padding: 20px;
-      background-color: #f9f9f9;
-    }
-
-    @media (max-width: 540px) {
-      .card {
-        flex-direction: column;
-      }
       .card-content {
         order: 2;
-      }
+      padding: 20px;
+      background-color: #f9f9f9;
     }
       .cinza{
             order: 1;
             width: 100%;
             background-color: #d9d6ce;
       }
+      .card .img{
+            width: 30px;
+      }
+          
     @media (min-width: 541px) {
       .card {
-        flex-direction: row;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      overflow: hidden;
+      max-width: 600px;
+      margin: 20px auto;
+      flex-direction: collumn;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
       }
       .card-content {
         width: 60%; 
@@ -41,5 +41,8 @@
             width: 40%;
             background-color: #d9d6ce;
             padding: 40px;
+      }
+      .card .img{
+            width: 50px;
       }
     }
