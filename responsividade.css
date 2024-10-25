@@ -18,6 +18,9 @@
   img {
     width: 30px;
   }
+   a {
+  float: right;
+}
 }
 
 @media (min-width: 541px) {
@@ -28,24 +31,24 @@
     max-width: 600px; 
     margin: 20px auto;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    display: grid;
+    display: flex;
     width: 100%;
   }
   .card-content {
-    width: 60%;
+    flex: 0 0 60%;
     padding: 20px;
     text-align: center;
   }
   .cinza {
-    width: 40%;
+    flex: 0 0 40%;
     background-color: #d9d6ce;
     padding: 40px;
   }
   img {
     width: 50px;
   }
+  a {
+  float: right;
 }
 
-a {
-  float: right;
 }
