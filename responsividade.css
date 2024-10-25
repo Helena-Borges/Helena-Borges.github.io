@@ -1,6 +1,4 @@
 .card {
-      display: flex;
-      flex-direction: column;
       border: 1px solid #ccc;
       border-radius: 8px;
       overflow: hidden;
@@ -36,8 +34,6 @@
       .card {
         flex-direction: row;
       }
-
-
       .card-content {
         width: 60%; 
         padding: 20px;
