@@ -13,6 +13,7 @@ h1{
   grid-template-columns: repeat(3, 1fr); 
   gap: 15px;
   align-items: center; 
+  justify-content: center;
   }
 buttonl {
   color: black;
@@ -26,7 +27,6 @@ buttonl {
   margin: 10px;
   padding: 50px;
   box-sizing: border-box;
-  display: inline-block;
   align-items: center; 
                 justify-content: center; 
                 overflow-wrap: break-word;
@@ -46,7 +46,6 @@ buttonl {
                 margin: 10px;
                 padding: 50px;
                 box-sizing: border-box;
-                display: inline-block; 
                 align-items: center; 
                 justify-content: center;     
                 overflow-wrap: break-word;
@@ -80,17 +79,17 @@ buttonl {
         }
         .font1 {
             font-family: Palatino, Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, serif;
-            font-size: 200%;
+            font-size: 600%;
             font-weight: bold;
         }
 .font2 {
       font-family: Palatino, Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, serif;
-            font-size: 150%;
+            font-size: 400%;
             font-weight: bold;
 }
 .fontp {
             font-family: Palatino, Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, serif;
-            font-size: 12px;
+            font-size: 120%;
             font-weight: bold;
 }
   header{
