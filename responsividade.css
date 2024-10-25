@@ -21,7 +21,8 @@
   }
   img {
     width: 30%;
-    margin: 50px;
+    align-items: center; 
+    justify-content: center;
   }
    a {
   float: right;
@@ -52,7 +53,8 @@
   }
   img {
     width: 30%;
-    margin: auto;
+    align-items: center; 
+    justify-content: center;
   }
   a {
   float: right;
