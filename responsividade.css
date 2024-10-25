@@ -5,13 +5,15 @@
     overflow-wrap: break-word;
     margin: auto;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 100%; 
+    width: 300px; 
     display: block;
   }
   .card-content {
     width: 100%;
     background-color: #f9f9f9;
     padding: 10%;
+    align-items: center; 
+    justify-content: center;
   }
   .cinza {
     width: 100%;
@@ -21,7 +23,7 @@
   }
   img {
     width: 20%;
-    margin: 10 40%;
+    margin: 10% 40%;
   }
    a {
   float: right;
