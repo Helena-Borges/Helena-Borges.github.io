@@ -28,7 +28,6 @@
             order: 1;
             width: 100%;
             background-color: #d9d6ce;
-            heigth: 100%;
       }
     @media (min-width: 541px) {
       .card {
