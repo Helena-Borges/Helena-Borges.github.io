@@ -12,7 +12,7 @@ h1{
   display: grid; 
   grid-template-columns: repeat(3, 1fr); 
   gap: 15px;
-  margin: 30px;
+  align-items: center; 
   }
 buttonl {
   color: black;
