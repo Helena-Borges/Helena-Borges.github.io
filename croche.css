@@ -15,7 +15,7 @@ h1{
 }
 
 .box {
-    color: black;
+  color: black;
   background-color: rgb(115, 147, 179);
   border-radius: 30px;
   border: none;
@@ -63,6 +63,7 @@ h1{
     background: rgb(245, 247, 244);
     padding: 40px;
     margin: 0px;
+    width: 100%;
   }
   .linha {
             height: 10px; 
