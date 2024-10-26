@@ -124,3 +124,6 @@ h1{
     background-color: #a3bcd6;
     transform: translateX(10px) scale(1.1);
 }
+a{
+  width: 28%;
+}
