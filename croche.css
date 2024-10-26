@@ -30,6 +30,7 @@ h1{
   transition: background 0.4s;
   transform: translateX(0) scale(0.9);
   transition: transform 0.4s;
+  height: 90%;
 }
         .font {
             font-size: 100%;
