@@ -34,7 +34,7 @@ h1{
   transition: transform 0.4s;
 }
         .font {
-            font-size: 20px;
+            font-size: 100%;
             font-family: Georgia,Times,Times New Roman,serif; 
         }
         .font1 {
@@ -49,7 +49,7 @@ h1{
 }
 .fontp {
             font-family: Palatino, Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, serif;
-            font-size: 120%;
+            font-size: 80%;
             font-weight: bold;
 }
   header{
