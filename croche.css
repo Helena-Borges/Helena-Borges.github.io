@@ -31,7 +31,7 @@ h1{
                 transition: background 0.4s;
                 transform: translateX(0) scale(0.9);
                 transition: transform 0.4s;
-  grid-column: 1;
+  flex: 1;
             }
         .buttonm{
                 color: black;
@@ -51,7 +51,7 @@ h1{
                 transition: background 0.4s;
                 transform: translateX(0) scale(0.9);
                 transition: transform 0.4s;
-          grid-column: 2;
+            flex: 1;
             }
           .buttonr{
                 color: black;
@@ -71,7 +71,7 @@ h1{
                 transition: background 0.4s;
                 transform: translateX(0) scale(0.9);
                 transition: transform 0.4s;
-            grid-column: 3;
+              flex: 1;
             }
         .font {
             font-size: 20px;
