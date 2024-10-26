@@ -32,7 +32,6 @@ h1{
   transition: background 0.4s;
   transform: translateX(0) scale(0.9);
   transition: transform 0.4s;
-  flex: 1;
 }
 .buttonl {
   color: black;
