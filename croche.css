@@ -9,10 +9,8 @@ h1{
   text-align:center;
 }
 .boxes {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-column-gap: 10px;
-  grid-row-gap: 1em;
+    display: inline-block;
+    gap: 2%;
   }
 .buttonl {
   color: black;
