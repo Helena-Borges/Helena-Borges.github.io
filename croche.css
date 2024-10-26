@@ -71,15 +71,7 @@ h1{
             width: 100%;
             vertical-align: bottom;
   }
-.buttonl:hover {
-    background-color: #a3bcd6;
-    transform: translateX(10px) scale(1.1);
-}
-.buttonm:hover {
-    background-color: #a3bcd6;
-    transform: translateX(10px) scale(1.1);
-}
-.buttonr:hover {
+.box:hover {
     background-color: #a3bcd6;
     transform: translateX(10px) scale(1.1);
 }
