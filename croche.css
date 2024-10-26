@@ -9,9 +9,10 @@ h1{
   text-align:center;
 }
 .boxes {
-    display: inline-block;
-    gap: 2%;
-  }
+            display: flex; 
+            justify-content: space-between; 
+            gap: 15px;
+        }
 .buttonl {
   color: black;
   background-color: rgb(115, 147, 179);
