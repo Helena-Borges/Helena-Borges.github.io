@@ -9,13 +9,10 @@ h1{
   text-align:center;
 }
 .boxes {
-  display: grid; 
-  grid-template-columns: repeat(3, 1fr); 
-  grid-template-rows: repeat(1, 25%);
-  gap: 15px;
-  align-items: center; 
-  justify-content: center;
-  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 1em;
   }
 .buttonl {
   color: black;
@@ -31,7 +28,7 @@ h1{
   box-sizing: border-box;
   align-items: center; 
   justify-content: center; 
-                overflow-wrap: break-word;
+  overflow-wrap: break-word;
                 transition: background 0.4s;
                 transform: translateX(0) scale(0.9);
                 transition: transform 0.4s;
