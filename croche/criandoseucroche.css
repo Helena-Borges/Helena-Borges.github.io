@@ -43,8 +43,8 @@
         }
     button1 {
             position: relative; 
-            width: 8vw; 
-            height: 8vw;
+            width: 10vw; 
+            height: 10vw;
             border: none; 
             overflow: hidden;
             margin: 10px;
@@ -256,5 +256,4 @@
                 align-items: center; 
                 justify-content: center; 
                 overflow-wrap: break-word; 
-            
-            }
+          }
