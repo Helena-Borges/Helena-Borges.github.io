@@ -53,7 +53,7 @@
             text-align: center;
             align-items: center;
             cursor: pointer;
-            padding: 3px;
+            padding: 5px;
         }
 
         .button1::before {
