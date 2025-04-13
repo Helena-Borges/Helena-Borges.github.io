@@ -22,7 +22,7 @@ function at5 () {
         }
         cont++
     }
-    r.innerHTML += result + ".<br>"
+    r.innerHTML += result + "<br>"
 }
 
 botao.addEventListener("click", at5);
