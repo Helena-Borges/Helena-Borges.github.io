@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Atividade 7</title>
+        <script src="js/atividade7.js" defer></script>
+    </head>
+    <body>
+        <style>
+            body {
+                text-align: center;
+            }
+            h1 {
+                font-size: 60px;
+                font-weight: 900;
+            }
+            h2 {
+                font-size: 15px;
+                font-weight: 500;
+            }
+            .resultado1 {
+                font-size: 20px;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            }
+            button {
+                padding: 5px 10px;
+                border-radius: 10px;
+                font-size: 15px;
+                background-color: rgb(197, 190, 180);
+                margin: 25px;
+            }
+            button:hover {
+                background-color: rgb(179, 162, 141);
+                cursor: pointer;
+            }
+            .frase {
+                padding: 20px;
+                min-width: 200px;
+                min-height: 30px;
+                font-size: 20px;
+                border-radius: 20px;
+                margin: 20px;
+                text-align: center;
+            }
+            h3 {
+                font-size: 20px;
+                color: rgb(59, 162, 28);
+            }
+            h4 {
+                font-size: 20px;
+                color: rgb(240, 153, 32);
+            }
+            h5 {
+                font-size: 20px;
+                color: rgb(162, 28, 28);
+            }
+        </style>
+        <br><br><br><br><br><br>
+        <h1>Atividade 7</h1>
+        <h2>Faça uma caixa de texto que classifique:
+            - fraca (em vermelho) se só possuir letras minúsculas ou maiúsculas
+            - moderada (em laranja) se possuir letras minúsculas e maiúsculas e números
+            - forte (em verde) se possuir letras minúsculas e maiúsculas, números e caracteres especiais (@, #, !, $, %, &, *, (, ), -, +, ., =)</h2>
+        <button id="executar">Executar</button><br>
+        <input type="text" id="frase" class="frase"/><br>
+        <div id="resultado" class="resultado1"></div>
+    </body>
+</html>
