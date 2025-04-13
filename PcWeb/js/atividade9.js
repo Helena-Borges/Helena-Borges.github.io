@@ -4,7 +4,7 @@ const r = document.querySelector("#resultado")
 function diasDeVida() {
     let dataNascimentoStr = document.querySelector("#data").value
     let partes = dataNascimentoStr.split("/")
-    let nascimento = new Date(partes[2], partes[1] - 1, partes[0]) // ano, mês (0-index), dia
+    let nascimento = new Date(partes[2], partes[1] - 1, partes[0]) 
 
     let hoje = new Date()
 

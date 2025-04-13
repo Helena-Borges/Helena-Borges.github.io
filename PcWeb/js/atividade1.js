@@ -1,12 +1,6 @@
 const botao = document.querySelector("#executa")
 
 const getValue = seletorDom => document.querySelector(seletorDom).value
-
-/**
- *  Função que inverte palavras dentro de um array
- * @param {*} lista - array de palavras
- * @returns um array de palavras invertidas
- */
 const inverte = lista => {
     for(let indice =0; indice< lista.length ; indice++) {
         let palavraInvertida = ""
@@ -24,14 +18,13 @@ const imprimir = (lista,seletor) =>{
     }
 }
 const questao1 = () => {
-    //1 recuperar a frase digitada
+
     let listaFrase = getValue("#frase").split(" ")
     let listaFraseInvertida = inverte(listaFrase)
-    //2 inverter cada uma das palavras
     imprimir(listaFraseInvertida,"#resultado1")
+    document.querySelector("#resultado").innerHTML += "<br>"
 }
 
-//Listeners
 
 botao.addEventListener("click", questao1)
 
