@@ -1,28 +1,16 @@
 const botao = document.querySelector("#executar")
 const r = document.querySelector("#result")
 
-function mm () {
-    let palavra = document.querySelector("#palavra").value
-    let letra = document.querySelector("#letra").value
-    rep(palavra, letra)
-}
-function rep (a, b) {
-    let cont = 0;
-    let tam = a.length
-    let result = 0
-    
-    while (cont < tam)
+function fatorial () {
+    let n = parseInt(document.querySelector("#numero").value)
+    let ninicial = n
+    let result = 1
+    while (n > 0)
     {
-        let letra2 = a[cont]
-        if (letra2 == b)
-        {
-            result++
-            cont++
-        }
-        else {
-            cont++;
-        }
+        result = result * n
+        n--
     }
-    r.innerHTML += "A letra " + b + " foi repetida " + result + " vezes."  + "<br>"
+    r.innerHTML += "O fatorial de " + ninicial + " é " + result + ".<br>"
 }
-botao.addEventListener("click", mm);
+
+botao.addEventListener("click", fatorial);
