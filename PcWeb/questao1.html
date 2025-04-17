@@ -8,6 +8,35 @@
   <script src="js/questao1.js" defer></script>
 </head>
 <body>
+   <style>
+            body {
+                text-align: center;
+            }
+            h1 {
+                font-size: 60px;
+                font-weight: 900;
+            }
+            p {
+                font-size: 15px;
+                font-weight: 500;
+            }
+            .resultado {
+                font-size: 20px;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            }
+            button {
+                padding: 5px 10px;
+                border-radius: 10px;
+                font-size: 15px;
+                background-color: rgb(197, 190, 180);
+                margin: 25px;
+            }
+            button:hover {
+                background-color: rgb(179, 162, 141);
+                cursor: pointer;
+            }
+     
+     </style>
     <h5>Computador de bordo</h5>
     <p>Um novo modelo de carro, super econômico foi lançado. Ele faz 20 km com 1 litro de combustível, considere cada litro de combustível custa R$ 7,00.</p>
     <p>
@@ -20,7 +49,7 @@
         <label>Informe quantos R$ dispõe</label>
         <input id="q01-dinheiro" type="text" placeholder="999.99">
         <button id="q01-executar">Calcular</button>
-    <div id="q01-result"></div>
+    <div id="q01-result" name="resultado"></div>
     </fieldset>
 </body>
 </html>
