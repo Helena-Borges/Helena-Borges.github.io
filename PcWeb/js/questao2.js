@@ -6,7 +6,7 @@ function q02 () {
   let peso = parseFloat(document.querySelector("#peso").value);
   let altura = parseFloat(document.querySelector("#altura").value);
   let imc = peso/(altura ** 2);
-  r.innerHTML += "Seu IMC é " + imc + "<br>";
+  r.innerHTML += "Seu IMC é " + imc.toFixed(2) + "<br>";
 
   if (imc < 18.5) {
     r.innerHTML += "Você está abaixo do peso<br>";

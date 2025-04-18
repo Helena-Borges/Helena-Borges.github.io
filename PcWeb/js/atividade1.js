@@ -22,11 +22,7 @@ const questao1 = () => {
     let listaFrase = getValue("#frase").split(" ")
     let listaFraseInvertida = inverte(listaFrase)
     imprimir(listaFraseInvertida,"#resultado1")
-    document.querySelector("#resultado").innerHTML += "<br>"
 }
 
 
 botao.addEventListener("click", questao1)
-
-
-
