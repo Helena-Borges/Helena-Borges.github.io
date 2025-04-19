@@ -6,14 +6,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Questão 2</title>
   <script src="js/questao2.js" defer></script>
+  <link rel="stylesheet" href="css/questao.css">
 </head>
 <body>
-  <style>
-    .body {
-      text-align: center;
-    }
-  </style>
-  <h1>Calculadora de IMC</h1>
+    <style>
+        table {
+            margin: 20px auto;
+        }
+        td, th {
+            background-color: rgba(245, 243, 242, 0.685);
+        }
+        input {
+            margin: 20px;
+        }
+        .result {
+            margin: 20px;
+        }
+    </style>
+  <header><h1>Calculadora de IMC</h1></header>
+  <div class="linha"></div>
   <p>O índice de massa corpórea (IMC) é o cálculo que demonstra se o indivíduo está ou não em seu peso ideal. Esse cálculo é importante para avaliar os riscos de obesidade e encontrar seu peso ideal. Segundo o modelo, pessoas com IMC </p>
   <table border="1px">
       <tr>
@@ -49,14 +60,15 @@
       Implemente a calculadora de IMC abaixo
   </p>
   <p>IMC = peso/(altura ^ 2)</p>
+  <div class="linha"></div>
   <fieldset>
       <legend>Calculadora de IMC</legend>
       <label>Informe o peso (KG)</label>
-      <input id="peso" type="text" placeholder="999.99">
+      <input id="peso" type="text" placeholder="999.99"><br>
       <label>Informe a altura (m)</label>
-      <input id="altura" type="text" placeholder="9.99">
+      <input id="altura" type="text" placeholder="9.99"><br>
       <button id="executar">Calcular</button>
-      <div id="result"></div>
+      <div id="result" class="result"></div>
   </fieldset>
 
 </body>

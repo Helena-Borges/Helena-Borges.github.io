@@ -1,0 +1,58 @@
+html {
+    text-align: center;
+    background-color: rgba(147, 193, 170, 0.575);
+    padding: 3vw;
+}
+header {
+    width: 25vw;
+    padding: 10px 30px;
+    margin: auto;
+    animation: fade-in 1s ease-in forwards;
+}
+.linha {
+    width: 35vw;
+    margin: 20px auto;
+    background-color: rgba(245, 243, 242, 0.685);
+    height: 5px;
+    animation: fade-in 0.7s ease-in forwards;
+}
+p {
+    width: 50vw;
+    margin: 10px auto;
+    animation: fade-in 0.7s ease-in forwards;
+}
+fieldset {
+    width: 40vw;
+    margin: 5vw auto;
+    border: 3px solid rgba(245, 243, 242, 0.685);
+    padding: 30px;
+    animation: fade-in 0.7s ease-in forwards;
+    background-color: rgba(245, 243, 242, 0.267);
+}
+button {
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: rgb(230, 235, 219);
+    border: 3px solid rgba(245, 243, 242, 0.685);
+    transition: all 0.2s ease-in;
+    margin: 30px;
+}
+button:hover {
+    cursor: pointer;
+    background-color: white;
+    transform: scale(1.1);
+}
+label {
+    margin: 8px;
+}
+@keyframes fade-in {
+0% {
+    opacity: 0;
+    display: none;
+}
+
+100% {
+    opacity: 1;
+    display: block;
+}
+}

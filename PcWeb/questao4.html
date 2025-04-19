@@ -1,1 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 4</title>
+    <script src="js/questao4.js" defer></script>
+    <link rel="stylesheet" href="css/questao.css">
+</head>
+<body>
+    <style>
 
+        .container {
+            width: 100%;
+            display: flex;
+        }
+        .box {
+            flex: 1;
+        }
+        .resultado {
+            margin: 20px;
+        }
+    </style>
+    <header><h1>Inversor de nomes</h1></header>
+    <div class="linha"></div>
+    <p>Faça um programa que peça ao usuário para digitar vários nomes. Ao mandar executar, seu programa deve exibir os nomes digitados invertidos (da última letra para a primeira).
+    </p>
+    <div class="linha"></div>
+    <fieldset>
+        <legend>Nomes</legend>
+        <label>Insira um nome</label><input id="nome" type="text" placeholder="Digite um nome"/>
+        <div class="container">
+            <div class="box">
+                <h4>Lista de Nomes Digitados</h4>
+                <button id="nomeexe">Adicionar nome</button>
+                <div id="resulnome" class="resultado"></div>
+            </div>
+            <div class="box">
+                <h4>Lista de Nomes Invertidos</h4>
+                <button id="executar">Inverter</button>
+                <div id="resultado" class="resultado"></div>
+            </div>
+            
+        </div>
+        
+    </fieldset>
+</body>
+</html>
