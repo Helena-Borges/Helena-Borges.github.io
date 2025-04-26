@@ -1,0 +1,65 @@
+body {
+    text-align: center;
+    padding: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgba(241, 235, 228, 0.692);
+}
+table {
+    margin: 30px auto;
+}
+input {
+    margin: 10px;
+    padding: 8px;
+    font-size: 15px;
+    width: 130px;
+    border-radius: 10px;
+    border-color:  rgb(150, 118, 100);
+    border-width: 1px;
+    background-color:  rgba(255, 255, 255, 0.742);
+}
+select {
+    margin: 10px;
+    padding: 8px;
+    font-size: 15px;
+    width: 150px;
+    border-radius: 10px;
+    border-color:  rgb(150, 118, 100);
+    border-width: 1px;
+    background-color:  rgba(255, 255, 255, 0.742);
+}
+button {
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: rgb(150, 118, 100);
+    border-color: rgba(150, 118, 100, 0.67);;
+    font-size: 15px;
+    color: white;
+}
+button:hover {
+    cursor: pointer;
+    transition: 0.5s;
+    background-color: rgba(150, 118, 100, 0.67);
+    border-color:  rgb(150, 118, 100);
+    color: black;
+}
+label {
+    font-size: 20px;
+}
+td, th {
+    width: 15vw;
+    padding: 8px 10px;
+    background-color: rgba(255, 255, 255, 0.536);
+}
+h1 {
+    font-size: 40px;
+}
+.linha {
+    width: 80vw;
+    height: 6px;
+    margin: 20px auto;
+    background-color: rgb(150, 118, 100);
+}
+table {
+    border-color:  rgb(150, 118, 100);
+    border-width: 5px;
+}
