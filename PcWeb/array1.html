@@ -1,1 +1,65 @@
-
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array 1</title>
+    <script src="js/array1.js" defer></script>
+</head>
+<body>
+    <style>
+        body {
+            text-align: center;
+            padding: 50px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        table {
+            margin: 30px auto;
+        }
+        input {
+            margin: 10px;
+            padding: 8px;
+            font-size: 15px;
+            width: 130px;
+            border-radius: 10px;
+        }
+        select {
+            margin: 10px;
+            padding: 8px;
+            font-size: 15px;
+            width: 150px;
+            border-radius: 10px;
+        }
+        button {
+            padding: 5px 10px;
+            border-radius: 10px;
+            border-color: rgb(214, 224, 233);
+            font-size: 15px;
+        }
+        label {
+            font-size: 20px;
+        }
+        td, th {
+            width: 100px;
+            padding: 8px 10px;
+        }
+    </style>
+    <label>Informe o maior número do array</label>
+    <br>
+    <input type="number" id="nmax" placeholder="3 array= [1, 2, 3]"><br><br>
+    <label>Informe a operação</label>
+    <br>
+    <select id="operacao">
+        <option value="sum">Soma</option>
+        <option value="sumodds">Soma dos ímpares</option>
+        <option value="product">Multiplicação</option>
+    </select>
+    <br><br>
+    <button type="submit" id="botao">Executar</button>
+    <div id="r">
+        <table border="1px">
+            <tr><th>Operação</th><th>Entrada</th><th>Saída</th></tr>
+        </table>
+    </div>
+</body>
+</html>
