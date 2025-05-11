@@ -4,9 +4,11 @@ const r = document.querySelector("#rpalavra");
 const erro = document.querySelector("#erros");
 
 const palavras = [
-    "amor", "feliz", "escola", "livro", "pessoa", "sorriso", "casa", 
-    "mundo", "cidade", "familia", "carro", "cachorro", "pessoa", "praia", 
-    "jogo", "musica", "amigo", "gato", "trabalho", "chocolate"
+    "amor", "bola", "casa", "dente", "elefante", "festa", "gato", "homem", "igreja", "jogo",
+    "lua", "mundo", "nuvem", "olho", "peixe", "quadro", "rio", "sol", "tigre", "urso",
+    "vaca", "xadrez", "yoga", "zebra", "pao", "livro", "computador", "trabalho", "jardim", "caminho",
+    "agua", "flor", "arvore", "carro", "janela", "papel", "teclado", "chave", "prato", "cabelo",
+    "corte", "voo", "aviao", "mesa", "cadeira", "copo", "telefone", "notebook", "computacao"
   ];
 
   let palavra = [];  
