@@ -12,16 +12,28 @@ const produtos = [
 ];
 
 const r = document.querySelector("#resultado")
+const resultadoBusca = document.querySelector("#resultadoBusca")
 
 const buscarProduto = () => {
-  const buscar = document.querySelector("#buscar");
-  
+  let buscar1 = document.querySelector("#buscar").value;
+  let buscar = buscar1.toLowerCase();
+  let correto = 0;
+  produtos.forEach(x => {
+    let nome = x['nome'].toLowerCase();
+    if(nome === buscar) {
+      resultadoBusca.innerHTML = "<h2>" + x['nome'] + "</h2><ul><li>Preço: R$:" + x['preco'].toFixed(2) + "</li></li>Quantidade: " + x['quantidade'] + "</li></ul>";
+      correto = 1;
+    }
+  });
+  if(correto == 0) {
+    resultadoBusca.innerHTML = "Produto não encontrado";
+  }
 }
 
-const listarProdutos = () => {
+const listarProdutos = () => { 
   r.innerHTML = "";
   produtos.forEach(p => {
-    r.innerHTML += "<ul><li>Nome: " + p['nome'] + "</li><li>Preço: " + p['preco'] + "</li><li>Quantidade: " + p['quantidade'] + "</li></ul>";
+    r.innerHTML += "<h2>" + p['nome'] + "</h2><ul><li><h4>Preço: R$:" + p['preco'].toFixed(2) + "</h4></li><li><h4>Quantidade: " + p['quantidade'] + "</h4></li></ul>";
   })
 }
 
@@ -31,7 +43,7 @@ const mostrarNomes = () => {
     return p['nome'];
   })
   nomes.forEach(x => {
-    r.innerHTML += "<li>" + x + "</li>";
+    r.innerHTML += "<h3>" + x + "</h3>";
   })
 }
 
@@ -42,14 +54,29 @@ const calcularTotal = () => {
   produtos.forEach(p => {
     total += p['preco'] * p['quantidade']
   })
-  r.innerHTML += "Valor Total do Estoque : R$:" + total.toFixed(2);
+  r.innerHTML += "<h3>Valor Total do Estoque : R$:" + total.toFixed(2) + "</h3>";
 }
-/*
-const verificarEsgotados = () => {
 
+const verificarEsgotados = () => {
+  r.innerHTML = "";
+  produtos.forEach(x => {
+    if(x['quantidade'] == 0) {
+      r.innerHTML += "<h3>" + x['nome'] + "</h3>";
+    }
+  });
 }
 
 const verificarPrecos = () => {
-
+  r.innerHTML = "";
+  let cont = 0;
+  for(let i = 0; i < produtos.length; i++) {
+    if(produtos[i]['preco'] > 10) {
+      cont += 1;
+    }
+  }
+  if(cont == produtos.length) {
+    r.innerHTML += "<h3>Todos os produtos têm preço justo</h3>";
+  } else {
+    r.innerHTML += "<h3>Há produtos com preço muito baixo</h3>";
+  }
 }
-*/
