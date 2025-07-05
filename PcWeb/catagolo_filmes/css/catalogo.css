@@ -1,0 +1,112 @@
+body {
+    align-items: center;
+}
+
+.lista {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+  gap: 16px;
+}
+
+.filme {
+  width: calc(50% - 16px);
+  background-color: rgb(192, 194, 193);
+  padding: 3%;
+  box-sizing: border-box;
+  margin: 0px;               
+}
+
+h1 {
+    font-size: 100px;
+}
+.titulo {
+    font-size: 35px;
+    font-weight: 1000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.poster {
+    width: 100%;
+}
+
+.divsemelhantes {
+    display: flex;
+    align-self: center;
+}
+.semelhantes {
+    flex: 1;
+    max-width: 33%;
+    align-items: center;
+}
+
+.verde {
+    background-color:rgb(42, 208, 42);
+    padding: 8%;
+    font-size: 30px;
+    width: 20%;
+    text-align: center;
+    border-radius: 30%;
+    aspect-ratio: 1 / 1; 
+    color: rgb(243, 243, 243);
+    margin: 5px auto;
+}
+
+.amarelo {
+    background-color:rgb(235, 231, 16);
+    padding: 8%;
+    font-size: 30px;
+    width: 20%;
+    text-align: center;
+    border-radius: 30%;
+    aspect-ratio: 1 / 1; 
+    color: rgb(243, 243, 243);
+    margin: 5px auto;
+}
+
+.vermelho {
+    background-color:rgb(211, 40, 40);
+    padding: 8%;
+    font-size: 30px;
+    width: 20%;
+    text-align: center;
+    border-radius: 30%;
+    aspect-ratio: 1 / 1; 
+    color: rgb(243, 243, 243);
+    margin: 5px auto;
+}
+
+.estrela {
+    width: 30px;
+    margin: 0px;
+}
+
+.caixa {
+    display: flex;
+}
+
+.categoria{
+    flex: 1;
+    width: 33%;
+    align-items: center;
+}
+.genero, .elenco {
+    font-size: 15px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.caixaopniao {
+    display: flex;
+}
+
+.opniao {
+    width: 50%;
+    background-color: rgba(3, 3, 3, 0.274);
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+}
