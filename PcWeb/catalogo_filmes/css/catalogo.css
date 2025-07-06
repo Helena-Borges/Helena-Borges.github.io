@@ -1,20 +1,25 @@
-body {
+body, html {
     align-items: center;
+    background-color: rgb(77, 11, 11);
+    padding: 0;
+    margin: 0;
 }
 
 .lista {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap; 
   justify-content: center; 
   gap: 16px;
 }
 
 .filme {
-  width: calc(50% - 16px);
-  background-color: rgb(192, 194, 193);
-  padding: 3%;
+  width: calc(33% - 16px);
+  background-color:rgb(14, 12, 12);
+  padding: 0px;
   box-sizing: border-box;
   margin: 0px;               
+  border-radius: 15px;
+  color: rgb(226, 222, 222);
 }
 
 h1 {
@@ -23,11 +28,35 @@ h1 {
 .titulo {
     font-size: 35px;
     font-weight: 1000;
+    margin: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
+.botao {
+    margin: 12px;
+    background-color: rgba(226, 220, 220, 0.879);
+    padding: 10px 8px;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    transition: 0.3s;
+}
+.botao:hover {
+    background-color: rgba(226, 220, 220, 0.879);
+    transition: 0.3s;
+    padding: 11px 9px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+}
 .poster {
     width: 100%;
+    border-radius: 15px 15px 0px 0px;
 }
 
 .divsemelhantes {
@@ -40,6 +69,12 @@ h1 {
     align-items: center;
 }
 
+.resumo {
+    margin: 20px;
+    font-size: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 200;
+}
 .verde {
     background-color:rgb(42, 208, 42);
     padding: 8%;
@@ -109,4 +144,15 @@ li {
     padding: 10px;
     border-radius: 5px;
     font-size: 18px;
+}
+
+header {
+    background-color: rgb(14, 12, 12);
+    margin: 0px 0px 10px 0px;
+    text-align: center;
+}
+
+.logo {
+    width: 20vw;
+    margin: 20px auto;
 }

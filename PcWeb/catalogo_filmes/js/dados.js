@@ -8,10 +8,11 @@ const dados = [
       " Séries dos EUA",
       " Séries Cômicas",
       " Séries Dramáticas"
-    ],
+    ], 
     "titulosSemelhantes": [2, 3],
     "classificacao": 18,
     "figura": "https://rafaelescalfoni.github.io/desenv_web/img/betterCallSaul.jpg",
+    "figura2": "img/1.jpg",
     "elenco": [
       "Bob Odenkirk",
       " Jonathan Banks",
@@ -27,7 +28,8 @@ const dados = [
         "rating": 5,
         "descricao": "Ansioso para ver. Vai ser demais! \"Advogados são como planos de saúde, você espera nunca precisar, mas cara... Não ter um ... NÃO!\" \\o/ "
       }
-    ]
+    ],
+    "url": "bettercallsaul.html"
   },
   {
     "id": 2,
@@ -42,6 +44,7 @@ const dados = [
     "titulosSemelhantes": [1, 3, 4],
     "classificacao": 18,
     "figura": "https://rafaelescalfoni.github.io/desenv_web/img/breakingBad.png",
+    "figura2": "img/2.jpg",
     "elenco": [
       "Bryan Cranston",
       " Aaron Paul",
@@ -57,7 +60,8 @@ const dados = [
         "rating": 5,
         "descricao": "Série excelente!"
       }
-    ]
+    ],
+    "url": "breakingbad.html"
   },
   {
     "id": 3,
@@ -71,6 +75,7 @@ const dados = [
     "titulosSemelhantes": [1, 2, 4],
     "classificacao": 16,
     "figura": "https://rafaelescalfoni.github.io/desenv_web/img/houseOfCards.png",
+    "figura2": "img/3.jpg",
     "elenco": [
       "Kevin Spacey",
       " Robin Wright",
@@ -83,7 +88,8 @@ const dados = [
         "rating": 5,
         "descricao": "Uma nova era para web! Essa série, sua estreia e temporada completa ao resto do mundo"
       }
-    ]
+    ],
+    "url": "houseofcards.html"
   },
   {
     "id": 4,
@@ -97,6 +103,7 @@ const dados = [
     "titulosSemelhantes": [1, 2, 3],
     "classificacao": 16,
     "figura": "https://rafaelescalfoni.github.io/desenv_web/img/narcos.png",
+    "figura2": "img/4.jpg",
     "elenco": [
       "Wagner Moura",
       " Boyd Holbrook",
@@ -108,7 +115,8 @@ const dados = [
         "rating": 4,
         "descricao": "Tudo para ser uma ótima série."
       }
-    ]
+    ],
+    "url": "narcos.html"
   },
   {
     "id": 5,
@@ -121,6 +129,7 @@ const dados = [
     "titulosSemelhantes": [6, 8],
     "classificacao": 0,
     "figura": "https://rafaelescalfoni.github.io/desenv_web/img/carros.png",
+    "figura2": "img/5.jpg",
     "elenco": [
       "Owen Wilson",
       " Larry the Cable Guy",
@@ -131,7 +140,8 @@ const dados = [
         "rating": 5,
         "descricao": "Excelente desenho! Meu filho adorou!!!"
       }
-    ]
+    ],
+    "url": "carros.html"
   },
   {
     "id": 6,
@@ -144,6 +154,7 @@ const dados = [
     "titulosSemelhantes": [5, 8],
     "classificacao": 0,
     "figura": "https://rafaelescalfoni.github.io/desenv_web/img/carros2.png",
+    "figura2": "img/6.jpg",
     "elenco": [
       "Owen Wilson",
       " Larry the Cable Guy",
@@ -154,7 +165,8 @@ const dados = [
         "rating": 4,
         "descricao": "Bom filme!"
       }
-    ]
+    ],
+    "url": "carros2.html"
   },
   {
     "id": 7,
@@ -168,6 +180,7 @@ const dados = [
     "titulosSemelhantes": [1, 2],
     "classificacao": 12,
     "figura": "https://rafaelescalfoni.github.io/desenv_web/img/familyGuy.png",
+    "figura2": "img/7.jpg",
     "elenco": [
       "Seth MacFarlane",
       " Alex Borstein"
@@ -177,7 +190,8 @@ const dados = [
         "rating": 5,
         "descricao": "Coloquem novas temporadas, por favor!"
       }
-    ]
+    ],
+    "url": "umafamiliadapesada.html"
   },
   {
     "id": 8,
@@ -190,6 +204,7 @@ const dados = [
     "titulosSemelhantes": [5, 6],
     "classificacao": 0,
     "figura": "https://rafaelescalfoni.github.io/desenv_web/img/valente.png",
+    "figura2": "img/8.jpeg",
     "elenco": [
       "Kelly Macdonald",
       " Billy Connolly",
@@ -204,7 +219,8 @@ const dados = [
         "rating": 4,
         "descricao": "ótimo filme! Encantador, prende a atenção o tempo todo!"
       }
-    ]
+    ],
+    "url": "valente.html"
   },
   {
     "id": 9,
@@ -219,6 +235,7 @@ const dados = [
     "titulosSemelhantes": [14],
     "classificacao": 12,
     "figura": "https://rafaelescalfoni.github.io/desenv_web/img/friends.png",
+    "figura2": "img/9.jpg",
     "elenco": [
       "Jennifer Aniston",
       " Courteney Cox",
@@ -236,7 +253,8 @@ const dados = [
         "rating": 3,
         "descricao": "Boa série... dos anos 1990!!!"
       }
-    ]
+    ],
+    "url": "friends.html"
   },
   {
     "id": 10,
@@ -250,6 +268,7 @@ const dados = [
     "titulosSemelhantes": [],
     "classificacao": 14,
     "figura": "https://rafaelescalfoni.github.io/desenv_web/img/house.png",
+    "figura2": "img/10.jpg",
     "elenco": [
       "Hugh Laurie",
       " Omar Epps",
@@ -260,7 +279,8 @@ const dados = [
         "rating": 4,
         "descricao": "Boa pedida!"
       }
-    ]
+    ],
+    "url": "house.html"
   },
   {
     "id": 11,
@@ -274,6 +294,7 @@ const dados = [
     "titulosSemelhantes": [],
     "classificacao": 12,
     "figura": "https://rafaelescalfoni.github.io/desenv_web/img/maosTalentosas.png",
+    "figura2": "img/11.jpg",
     "elenco": [
       "Seth MacFarlane",
       " Alex Borstein"
@@ -283,7 +304,8 @@ const dados = [
         "rating": 5,
         "descricao": "Coloquem novas temporadas, por favor!"
       }
-    ]
+    ],
+    "url": "maostalentosas.html"
   },
   {
     "id": 12,
@@ -297,6 +319,7 @@ const dados = [
     "titulosSemelhantes": [14, 9],
     "classificacao": 10,
     "figura": "https://rafaelescalfoni.github.io/desenv_web/img/modernFamily.png",
+    "figura2": "img/12.jpg",
     "elenco": [
       "Ed O'Neill",
       " Sofia Vergara",
@@ -307,7 +330,8 @@ const dados = [
         "rating": 5,
         "descricao": "Coloquem novas temporadas, por favor!"
       }
-    ]
+    ],
+    "url": "familiamoderna.html"
   },
   {
     "id": 13,
@@ -321,6 +345,7 @@ const dados = [
     "titulosSemelhantes": [],
     "classificacao": 18,
     "figura": "https://rafaelescalfoni.github.io/desenv_web/img/scarface.png",
+    "figura2": "img/13.jpg",
     "elenco": [
       "Al Pacino",
       " Steven Bauer",
@@ -331,7 +356,8 @@ const dados = [
         "rating": 5,
         "descricao": "Coloquem novas temporadas, por favor!"
       }
-    ]
+    ],
+    "url": "scarface.html"
   },
   {
     "id": 14,
@@ -345,6 +371,7 @@ const dados = [
     "titulosSemelhantes": [1, 2],
     "classificacao": 12,
     "figura": "https://rafaelescalfoni.github.io/desenv_web/img/that70s.png",
+    "figura2": "img/14.jpg",
     "elenco": [
       "Topher Grace",
       " Mila Kunis",
@@ -362,7 +389,8 @@ const dados = [
         "rating": 5,
         "descricao": "Já estava na hora de adicioná-la! Muito boa!!!"
       }
-    ]
+    ],
+    "url": "that70sshow.html"
   },
   {
     "id": 15,
@@ -375,6 +403,7 @@ const dados = [
     "titulosSemelhantes": [],
     "classificacao": 16,
     "figura": "https://rafaelescalfoni.github.io/desenv_web/img/zumbilandia.png",
+    "figura2": "img/15.jpg",
     "elenco": [
       "Jesse Eisenberg",
       " Woody Harrelson",
@@ -385,6 +414,7 @@ const dados = [
         "rating": 5,
         "descricao": "Excelente filme! Irreverente!"
       }
-    ]
+    ],
+    "url": "zumbilandia.html"
   }
 ]

@@ -6,20 +6,25 @@ dados.forEach(dado => {
     filme.classList.add("filme");
     lista.appendChild(filme);
 
-    let titulo = document.createElement("h2")
-    titulo.textContent = dado['titulo'];
-    titulo.classList.add("titulo");
-    filme.appendChild(titulo);
-
     let imagem = document.createElement("img");
     imagem.src = dado['figura'];               
     imagem.classList.add("poster");    
     filme.appendChild(imagem); 
 
+    let titulo = document.createElement("h2")
+    titulo.textContent = dado['titulo'];
+    titulo.classList.add("titulo");
+    filme.appendChild(titulo);
+
     let resumo = document.createElement("h4")
     resumo.textContent = dado['resumo']
     resumo.classList.add("resumo");
     filme.appendChild(resumo); 
+
+    let botao = document.createElement("button")
+    botao.textContent = "Ver mais"
+    botao.classList.add("botao")
+    filme.appendChild(botao)
 
     let caixa = document.createElement("div")
     caixa.classList.add("caixa")
@@ -36,7 +41,6 @@ dados.forEach(dado => {
         item.classList.add("genero");
         categoriag.appendChild(item);
     });
-
 
     let categoriae = document.createElement("h2");
     categoriae.classList.add("categoria");

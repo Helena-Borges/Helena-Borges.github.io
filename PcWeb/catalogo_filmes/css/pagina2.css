@@ -1,0 +1,170 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+.caixa1 {
+    position: relative;
+    width: 100%;
+}
+
+.imagem {
+    display: block;
+    width: 100%;
+    margin: 0;
+    filter: brightness(0.3);
+    position: relative;
+    z-index: 0;
+    padding: 0;
+}
+
+.nome {
+    position: absolute;
+    top: 22%;          
+    left: 5%;  
+    z-index: 1;
+    color: white;
+    font-size: 100px;
+    margin: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+}
+
+.resumo {
+    position: absolute;
+    top: 40%;          
+    left: 5%; 
+    width: 40vw;
+    z-index: 1;
+    color: white;
+    font-size: 30px;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+}
+
+.caixa2 {
+    padding: 20px;
+    background-color: rgb(14, 12, 12);
+    display: flex;
+}
+
+.categoriag, .categoriae{
+    font-size: 50px;
+    margin: 0;
+    width: 15vw;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    flex: 1;
+}
+
+.categoriao {
+    font-size: 50px;
+    margin: 0;
+    width: 30vw;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    flex: 1;
+}
+.generos, .elenco{
+    font-size: 35px;
+    color: white;
+    list-style-type: none;
+    font-weight: 100;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 10px 0px;
+}
+
+.estrela {
+    width: 30px;
+    height: 30px;
+    margin: 0px;
+}
+
+.opinioes {
+    font-weight: 100;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style-type: none;
+    width: 30vw;
+    margin: 0px;
+}
+
+.opniao {
+    margin: 10px;
+}
+.descricao {
+    font-size: 20px;
+    margin: 0px;
+    font-weight: 100;
+}
+
+.caixaSemelhantes {
+    padding: 20px;
+    background-color:  rgb(14, 12, 12);
+    color: white;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+}
+
+.semelhantes {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.semelhantes li {
+    width: 28vw;
+}
+
+.imgSemelhante {
+    width: 28vw;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.imgSemelhante:hover {
+    transform: scale(1.05);
+}
+
+.verde {
+    background-color:rgb(42, 208, 42);
+    padding: 5px 10px;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(243, 243, 243);
+    margin: 5px auto;
+    position: absolute;
+    top: 0px;       
+    left: 0px; 
+}
+
+.amarelo {
+    background-color:rgb(235, 231, 16);
+    padding: 5px 10px;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(243, 243, 243);
+    margin: 5px auto;
+    position: absolute;
+    top: 0px;       
+    left: 0px; 
+}
+
+.vermelho {
+    background-color:rgb(211, 40, 40);
+    padding: 5px 10px;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(243, 243, 243);
+    margin: 5px auto;
+    position: absolute;
+    top: 0px;       
+    left: 0px; 
+}
