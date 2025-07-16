@@ -4,7 +4,7 @@ header {
 }
 
 .logo {
-    width: 15rem;
+    width: 18rem;
     margin: 2rem;
 }
 
@@ -17,7 +17,7 @@ body, html {
 
 .paravoce {
   font-size: 2rem;
-  margin: 1rem;
+  margin: 2rem 1rem;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: white;
   font-weight: 300;
@@ -87,8 +87,9 @@ body, html {
   flex: 1;
   display: flex;
   align-items: center;
-  justify-content: flex-end; /* alinha os dois à direita */
+  justify-content: flex-end;
   gap: 1rem;
+  padding: 1rem;
 }
 
 .usuario {
