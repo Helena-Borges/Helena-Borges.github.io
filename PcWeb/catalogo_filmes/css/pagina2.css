@@ -1,110 +1,104 @@
 html, body {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 .caixa1 {
     position: relative;
     width: 100%;
+    overflow: hidden;
 }
 
 .imagem {
     display: block;
     width: 100%;
-    margin: 0;
+    height: auto;
     filter: brightness(0.3);
     position: relative;
     z-index: 0;
-    padding: 0;
 }
 
 .nome {
     position: absolute;
-    top: 22%;          
-    left: 5%;  
+    top: 20%;
+    left: 5%;
     z-index: 1;
     color: white;
-    font-size: 100px;
-    margin: 0;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 7vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 800;
+    margin: 0;
 }
 
 .resumo {
     position: absolute;
-    top: 40%;          
-    left: 5%; 
-    width: 40vw;
+    top: 40%;
+    left: 5%;
     z-index: 1;
     color: white;
-    font-size: 30px;
-    margin: 0;
+    font-size: 2.5vw;
+    width: 60vw;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 100;
+    margin: 0;
 }
 
 .caixa2 {
-    padding: 20px;
-    background-color: rgb(14, 12, 12);
     display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: #0e0c0c;
+    gap: 20px;
 }
 
-.categoriag, .categoriae{
-    font-size: 50px;
-    margin: 0;
-    width: 15vw;
+.categoriag, .categoriae, .categoriao {
+    font-size: 3vw;
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 100;
-    flex: 1;
+    flex: 1 1 200px;
+    margin: 0;
 }
 
-.categoriao {
-    font-size: 50px;
-    margin: 0;
-    width: 30vw;
-    color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 100;
-    flex: 1;
-}
-.generos, .elenco{
-    font-size: 35px;
+.generos, .elenco {
+    font-size: 2vw;
     color: white;
     list-style-type: none;
-    font-weight: 100;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 10px 0px;
+    font-weight: 100;
+    margin: 10px 0;
 }
 
 .estrela {
     width: 30px;
     height: 30px;
-    margin: 0px;
+    margin: 0;
 }
 
 .opinioes {
-    font-weight: 100;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     list-style-type: none;
-    width: 30vw;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .opniao {
-    margin: 10px;
+    margin: 10px 0;
 }
+
 .descricao {
-    font-size: 20px;
-    margin: 0px;
+    font-size: 1.2rem;
+    margin: 0;
     font-weight: 100;
 }
 
 .caixaSemelhantes {
     padding: 20px;
-    background-color:  rgb(14, 12, 12);
+    background-color: #0e0c0c;
     color: white;
-    font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 100;
 }
@@ -114,16 +108,17 @@ html, body {
     padding: 0;
     margin-top: 20px;
     display: flex;
-    gap: 20px;
     flex-wrap: wrap;
+    gap: 20px;
 }
 
 .semelhantes li {
-    width: 28vw;
+    flex: 1 1 250px;
+    max-width: 300px;
 }
 
 .imgSemelhante {
-    width: 28vw;
+    width: 100%;
     border-radius: 10px;
     cursor: pointer;
     transition: transform 0.3s ease;
@@ -133,38 +128,95 @@ html, body {
     transform: scale(1.05);
 }
 
-.verde {
-    background-color:rgb(42, 208, 42);
-    padding: 5px 10px;
-    font-size: 30px;
-    text-align: center;
-    color: rgb(243, 243, 243);
-    margin: 5px auto;
+.verde, .amarelo, .vermelho {
     position: absolute;
-    top: 0px;       
-    left: 0px; 
+    top: 0;
+    right: 0; 
+    padding: 5px 10px;
+    font-size: 3rem;
+    text-align: center;
+    color: #f3f3f3;
+    margin: 0; 
+    border-bottom-left-radius: 8px; 
+}
+
+
+.verde {
+    background-color: #2ad02a;
 }
 
 .amarelo {
-    background-color:rgb(235, 231, 16);
-    padding: 5px 10px;
-    font-size: 30px;
-    text-align: center;
-    color: rgb(243, 243, 243);
-    margin: 5px auto;
-    position: absolute;
-    top: 0px;       
-    left: 0px; 
+    background-color: #ebe710;
 }
 
 .vermelho {
-    background-color:rgb(211, 40, 40);
-    padding: 5px 10px;
-    font-size: 30px;
-    text-align: center;
-    color: rgb(243, 243, 243);
-    margin: 5px auto;
-    position: absolute;
-    top: 0px;       
-    left: 0px; 
+    background-color: #d32828;
+}
+
+
+@media (max-width: 768px) {
+    .nome {
+        font-size: 9vw;
+        top: 15%;
+    }
+
+    .resumo {
+        font-size: 3.5vw;
+        top: 35%;
+        width: 85vw;
+    }
+
+    .categoriag, .categoriae, .categoriao {
+        font-size: 5vw;
+    }
+
+    .generos, .elenco {
+        font-size: 4vw;
+    }
+
+    .descricao {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .nome {
+        font-size: 10vw;
+        top: 10%;
+    }
+
+    .resumo {
+        font-size: 4vw;
+        top: 30%;
+        width: 90vw;
+    }
+
+    .caixa2 {
+        flex-direction: column;
+    }
+
+    .categoriag, .categoriae, .categoriao {
+        font-size: 6vw;
+        width: 100%;
+    }
+
+    .generos, .elenco {
+        font-size: 4.5vw;
+    }
+
+    .descricao {
+        font-size: 0.9rem;
+    }
+
+    .imgSemelhante {
+        width: 100%;
+    }
+
+    .semelhantes li {
+        max-width: 90vw;
+    }
+
+    .verde, .amarelo, .vermelho {
+        font-size: 1.2rem;
+    }
 }
