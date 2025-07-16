@@ -4,7 +4,7 @@ header {
 }
 
 .logo {
-    width: 18rem;
+    width: 15rem;
     margin: 2rem;
 }
 
@@ -17,7 +17,7 @@ body, html {
 
 .paravoce {
   font-size: 2rem;
-  margin: 2rem 1rem;
+  margin: 2rem 1rem 1rem 1rem;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: white;
   font-weight: 300;
