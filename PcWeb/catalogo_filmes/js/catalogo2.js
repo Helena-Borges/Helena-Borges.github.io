@@ -43,6 +43,7 @@ dado.forEach(dado => {
 
 document.body.appendChild(lista);
 
+
 })
 
 .catch(error => {

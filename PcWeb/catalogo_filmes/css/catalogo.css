@@ -13,13 +13,14 @@ body, html {
   background: linear-gradient(to bottom, rgb(0, 0, 0) 0%, rgb(77, 11, 11) 100%);
   padding: 0;
   margin: 0;
+  height: 100vh;
 }
 
 .paravoce {
   font-size: 2rem;
   margin: 2rem 1rem 1rem 1rem;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: white;
+  color: rgb(226, 222, 222);
   font-weight: 300;
 }
 
@@ -34,9 +35,28 @@ body, html {
   list-style-type: none;
 }
 
+/* Largura da barra de rolagem */
 .lista::-webkit-scrollbar {
-  display: none;
+  height: auto;
 }
+
+/* Estilo do fundo da barra (trilha) */
+.lista::-webkit-scrollbar-track {
+  background: #9c9c9c33;
+  border-radius: 6px;
+}
+
+/* Estilo do "puxador" (polegar) da barra de rolagem */
+.lista::-webkit-scrollbar-thumb {
+  background: rgb(226, 222, 222);
+  border-radius: 6px;
+}
+
+/* Estilo quando o "puxador" estiver hover */
+.lista::-webkit-scrollbar-thumb:hover {
+  cursor: grabbing;
+}
+
 
 .filme {
   flex: 0 0 auto;           
@@ -75,6 +95,9 @@ body, html {
 
 .bemvindo {
   color: rgb(226, 222, 222);
+  font-size: 1.1rem;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 200;
 
 }
 
