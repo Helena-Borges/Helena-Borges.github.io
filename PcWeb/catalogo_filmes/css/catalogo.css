@@ -18,7 +18,7 @@ body, html {
 
 .paravoce {
   font-size: 2rem;
-  margin: 1rem;
+  margin: 0rem 1rem;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: rgb(226, 222, 222);
   font-weight: 300;
@@ -31,7 +31,7 @@ body, html {
   gap: 0.7rem;                
   padding: 1rem;
   -webkit-overflow-scrolling: touch;
-  margin: 1rem;
+  margin: 0rem 1rem;
   list-style-type: none;
 }
 
