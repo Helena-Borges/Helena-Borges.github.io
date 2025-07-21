@@ -4,7 +4,7 @@ header {
 }
 
 .logo {
-    width: 15rem;
+    width: 20rem;
     margin: 2rem;
 }
 
@@ -35,24 +35,20 @@ body, html {
   list-style-type: none;
 }
 
-/* Largura da barra de rolagem */
 .lista::-webkit-scrollbar {
   height: auto;
 }
 
-/* Estilo do fundo da barra (trilha) */
 .lista::-webkit-scrollbar-track {
   background: #9c9c9c33;
   border-radius: 6px;
 }
 
-/* Estilo do "puxador" (polegar) da barra de rolagem */
 .lista::-webkit-scrollbar-thumb {
   background: rgb(226, 222, 222);
   border-radius: 6px;
 }
 
-/* Estilo quando o "puxador" estiver hover */
 .lista::-webkit-scrollbar-thumb:hover {
   cursor: grabbing;
 }
