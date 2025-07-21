@@ -5,7 +5,7 @@ header {
 
 .logo {
     width: 20rem;
-    margin: 2rem;
+    margin: 2rem 2rem 0rem 1.5rem;
 }
 
 body, html {
@@ -18,7 +18,7 @@ body, html {
 
 .paravoce {
   font-size: 2rem;
-  margin: 2rem 1rem 1rem 1rem;
+  margin: 1rem;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: rgb(226, 222, 222);
   font-weight: 300;
@@ -91,7 +91,7 @@ body, html {
 
 .bemvindo {
   color: rgb(226, 222, 222);
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 200;
 
@@ -112,5 +112,5 @@ body, html {
 }
 
 .usuario {
-  width: 3.5rem;
+  width: 3.8rem;
 }
