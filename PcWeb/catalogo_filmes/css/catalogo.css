@@ -53,17 +53,17 @@ body, html {
   cursor: grabbing;
 }
 
-
 .filme {
   flex: 0 0 auto;           
   scroll-snap-align: start; 
-  width: 25rem;             
+  width: 33rem;             
   cursor: pointer;
   background-color:rgb(14, 12, 12);
   border-radius: 0px;
   color: rgb(226, 222, 222);
   box-sizing: border-box;
   transition: transform 0.3s;
+  height: auto;
 }
 
 .filme:hover {
