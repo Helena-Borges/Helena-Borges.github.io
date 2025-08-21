@@ -133,7 +133,7 @@ fetch("https://rafaelescalfoni.github.io/desenv_web/filmes.json")
             let li = document.createElement("li");
 
             let link = document.createElement("a");
-            link.href = `${dado[x - 1]['url']}`;
+            link.href = `${dados[x - 1]['url']}`;
 
             let imagem = document.createElement("img");
             imagem.src = dado[x - 1]['figura'];
