@@ -7,7 +7,7 @@ const dados = [
   {
     "titulo": "Breaking Bad",
     "figura2": "img/2.jpg",
-    "url": "breakingbad.html"
+    "url": "https://helena-borges.github.io/PcWeb/catalogo_filmes/breakingbad.html"
   },
   {
     "titulo": "House of Cards",
