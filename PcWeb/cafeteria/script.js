@@ -54,13 +54,13 @@ let totalCarrinhoEl = document.getElementById("totalCarrinho");
 function listarCarrinho(produtosSelecionados) {
     listacarrinho.innerHTML = '';
     
-    let total = 0;  // variável para somar o preço total
+    let total = 0;  
     
     produtosSelecionados.forEach(produtoId => {
         let produto = array.find(p => p.id === produtoId);
 
         if (produto) {
-            total += produto.preco;  // soma o preço
+            total += produto.preco;  
 
             let item = document.createElement("li");
             item.classList.add("itemcarrinho");
@@ -87,13 +87,11 @@ function listarCarrinho(produtosSelecionados) {
         }
     });
 
-    // Atualiza o texto do total no elemento da página
     if(totalCarrinhoEl){
         totalCarrinhoEl.textContent = "Total: R$ " + total + ",00";
     }
 }
 
-// Chama a função de listar o carrinho ao carregar a página
 listarCarrinho(produtoscarrinho);
 
 document.addEventListener('click', () => {
