@@ -1,11 +1,11 @@
 const array = [
-    { "id": 1, "nome": "Café Expresso", "preco": 8, "imagem" : "cafe.png"},
-    { "id": 2, "nome": "Cappuccino", "preco": 12, "imagem" : "cappuccino.png"},
-    { "id": 3, "nome": "Suco de Laranja", "preco": 10, "imagem" : "suco-de-laranja.png"},
-    { "id": 4, "nome": "Água Mineral", "preco": 6, "imagem" : "agua.png"},
-    { "id": 5, "nome": "Fatia de Bolo", "preco": 12, "imagem" : "bolo.png"},
-    { "id": 6, "nome": "Sanduiche Natural", "preco": 15, "imagem" : "sanduiche.png"},
-    { "id": 7, "nome": "Croissant", "preco": 17, "imagem" : "croissant.png"}
+    { "id": 1, "nome": "Café Expresso", "preco": 8, "imagem" : "img/cafe.png"},
+    { "id": 2, "nome": "Cappuccino", "preco": 12, "imagem" : "img/cappuccino.png"},
+    { "id": 3, "nome": "Suco de Laranja", "preco": 10, "imagem" : "img/suco-de-laranja.png"},
+    { "id": 4, "nome": "Água Mineral", "preco": 6, "imagem" : "img/agua.png"},
+    { "id": 5, "nome": "Fatia de Bolo", "preco": 12, "imagem" : "img/bolo.png"},
+    { "id": 6, "nome": "Sanduiche Natural", "preco": 15, "imagem" : "img/sanduiche.png"},
+    { "id": 7, "nome": "Croissant", "preco": 17, "imagem" : "img/croissant.png"}
 ];
  
 let lista = document.getElementById("lista")
